@@ -1,7 +1,7 @@
 import requests
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 
 POLYGON_KEY = os.environ.get("POLYGON_API_KEY")
 
@@ -9,17 +9,22 @@ print(f"POLYGON_KEY loaded: {bool(POLYGON_KEY)}")
 
 TICKERS = ["AAPL", "MSFT", "TSLA", "SPY", "QQQ"]
 
+# 24 hours ago in nanoseconds (Polygon uses nanosecond timestamps)
+since_ns = int((datetime.now(timezone.utc) - timedelta(hours=24)).timestamp() * 1_000_000_000)
+
 output = {
     "last_updated": datetime.utcnow().isoformat() + "Z",
+    "since": datetime.now(timezone.utc) - timedelta(hours=24),
     "stocks": {}
 }
+output["since"] = (datetime.now(timezone.utc) - timedelta(hours=24)).isoformat()
 
 for ticker in TICKERS:
     print(f"\nFetching data for {ticker}...")
     stock_data = {}
 
     # ─────────────────────────────────────────
-    # 1. PREVIOUS DAY OHLCV (already working)
+    # 1. PREVIOUS DAY OHLCV
     # ─────────────────────────────────────────
     try:
         url = f"https://api.polygon.io/v2/aggs/ticker/{ticker}/prev?adjusted=true&apiKey={POLYGON_KEY}"
@@ -38,32 +43,53 @@ for ticker in TICKERS:
         print(f"  OHLCV: ERROR - {e}")
 
     # ─────────────────────────────────────────
-    # 2. TIME OF SALES (last 25 trades)
+    # 2. TIME OF SALES — ALL TRADES (last 24h)
+    #    Paginated — fetches every page until done
     # ─────────────────────────────────────────
     try:
+        trades = []
         url = (
             f"https://api.polygon.io/v3/trades/{ticker}"
-            f"?limit=25&order=desc&sort=timestamp&apiKey={POLYGON_KEY}"
+            f"?timestamp.gte={since_ns}"
+            f"&limit=50000"
+            f"&order=desc"
+            f"&sort=timestamp"
+            f"&apiKey={POLYGON_KEY}"
         )
-        r = requests.get(url, timeout=10)
-        trades_raw = r.json().get("results", [])
-        trades = []
-        for t in trades_raw:
-            trades.append({
-                "timestamp": t.get("sip_timestamp"),
-                "price":     t.get("price"),
-                "size":      t.get("size"),
-                "exchange":  t.get("exchange"),
-                "conditions": t.get("conditions", []),
-            })
-        stock_data["time_of_sales"] = trades
-        print(f"  Time of Sales: {len(trades)} trades fetched")
+
+        page = 0
+        while url:
+            page += 1
+            print(f"  Trades page {page}...")
+            r = requests.get(url, timeout=30)
+            data = r.json()
+
+            for t in data.get("results", []):
+                trades.append({
+                    "timestamp": t.get("sip_timestamp"),
+                    "price":     t.get("price"),
+                    "size":      t.get("size"),
+                    "exchange":  t.get("exchange"),
+                    "conditions": t.get("conditions", []),
+                })
+
+            # Polygon returns a next_url if there are more pages
+            url = data.get("next_url")
+            if url:
+                url = f"{url}&apiKey={POLYGON_KEY}"
+
+        stock_data["time_of_sales"] = {
+            "total_trades": len(trades),
+            "trades": trades
+        }
+        print(f"  Time of Sales: {len(trades):,} total trades fetched")
+
     except Exception as e:
         stock_data["time_of_sales"] = {"error": str(e)}
         print(f"  Time of Sales: ERROR - {e}")
 
     # ─────────────────────────────────────────
-    # 3. NBBO QUOTE SNAPSHOT (best bid & ask)
+    # 3. NBBO QUOTE SNAPSHOT
     # ─────────────────────────────────────────
     try:
         url = (
