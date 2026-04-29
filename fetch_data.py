@@ -6,7 +6,11 @@ from datetime import datetime
 POLYGON_KEY = os.environ.get("POLYGON_API_KEY")
 FINNHUB_KEY = os.environ.get("FINNHUB_API_KEY")
 
-TICKERS = ["AAPL", "MSFT", "TSLA", "SPY", "QQQ"]  # customize this list
+# Debug: confirm keys are loaded (won't print actual values)
+print(f"POLYGON_KEY loaded: {bool(POLYGON_KEY)}")
+print(f"FINNHUB_KEY loaded: {bool(FINNHUB_KEY)}")
+
+TICKERS = ["AAPL", "MSFT", "TSLA", "SPY", "QQQ"]
 
 output = {
     "last_updated": datetime.utcnow().isoformat() + "Z",
@@ -15,9 +19,9 @@ output = {
 
 for ticker in TICKERS:
     try:
-        # Polygon - previous day close
         url = f"https://api.polygon.io/v2/aggs/ticker/{ticker}/prev?adjusted=true&apiKey={POLYGON_KEY}"
-        r = requests.get(url)
+        r = requests.get(url, timeout=10)
+        print(f"{ticker} status: {r.status_code}")
         data = r.json()
         result = data.get("results", [{}])[0]
 
@@ -29,9 +33,10 @@ for ticker in TICKERS:
             "volume": result.get("v"),
         }
     except Exception as e:
+        print(f"ERROR on {ticker}: {e}")
         output["stocks"][ticker] = {"error": str(e)}
 
-# Save to file
+os.makedirs("data", exist_ok=True)
 with open("data/prices.json", "w") as f:
     json.dump(output, f, indent=2)
 
