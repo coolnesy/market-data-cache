@@ -7,17 +7,16 @@ POLYGON_KEY = os.environ.get("POLYGON_API_KEY")
 
 print(f"POLYGON_KEY loaded: {bool(POLYGON_KEY)}")
 
-TICKERS = ["AAPL", "MSFT", "TSLA", "SPY", "QQQ"]
+TICKERS = ["META"]  # ← single ticker only
 
-# 24 hours ago in nanoseconds (Polygon uses nanosecond timestamps)
+# 24 hours ago in nanoseconds
 since_ns = int((datetime.now(timezone.utc) - timedelta(hours=24)).timestamp() * 1_000_000_000)
 
 output = {
     "last_updated": datetime.utcnow().isoformat() + "Z",
-    "since": datetime.now(timezone.utc) - timedelta(hours=24),
+    "since": (datetime.now(timezone.utc) - timedelta(hours=24)).isoformat(),
     "stocks": {}
 }
-output["since"] = (datetime.now(timezone.utc) - timedelta(hours=24)).isoformat()
 
 for ticker in TICKERS:
     print(f"\nFetching data for {ticker}...")
@@ -44,7 +43,6 @@ for ticker in TICKERS:
 
     # ─────────────────────────────────────────
     # 2. TIME OF SALES — ALL TRADES (last 24h)
-    #    Paginated — fetches every page until done
     # ─────────────────────────────────────────
     try:
         trades = []
@@ -60,7 +58,7 @@ for ticker in TICKERS:
         page = 0
         while url:
             page += 1
-            print(f"  Trades page {page}...")
+            print(f"  Trades page {page} ({len(trades):,} so far)...")
             r = requests.get(url, timeout=30)
             data = r.json()
 
@@ -73,7 +71,6 @@ for ticker in TICKERS:
                     "conditions": t.get("conditions", []),
                 })
 
-            # Polygon returns a next_url if there are more pages
             url = data.get("next_url")
             if url:
                 url = f"{url}&apiKey={POLYGON_KEY}"
