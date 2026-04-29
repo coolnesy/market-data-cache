@@ -2,22 +2,25 @@ name: Fetch Market Data
 
 on:
   schedule:
-    - cron: '*/30 13-20 * * 1-5'  # Every 30 min, Mon-Fri, 8am-3pm EST
-  workflow_dispatch:               # Allows manual trigger
+    - cron: '*/30 13-20 * * 1-5'
+  workflow_dispatch:
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4        # ← updated from v3
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5    # ← updated from v4
         with:
           python-version: '3.11'
 
       - name: Install dependencies
         run: pip install requests
+
+      - name: Create data folder if missing
+        run: mkdir -p data               # ← this was missing!
 
       - name: Run fetcher
         env:
