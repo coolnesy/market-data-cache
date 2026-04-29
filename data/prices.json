@@ -1,40 +1,111 @@
 {
-  "last_updated": "2026-04-29T22:00:48.365350Z",
+  "last_updated": "2026-04-29T22:26:05.904318Z",
+  "since": "2026-04-28T22:26:05.904325+00:00",
   "stocks": {
     "AAPL": {
-      "open": 272.335,
-      "high": 273.23,
-      "low": 268.66,
-      "close": 270.71,
-      "volume": 40016288.0
+      "ohlcv": {
+        "open": 272.335,
+        "high": 273.23,
+        "low": 268.66,
+        "close": 270.71,
+        "volume": 40016288.0
+      },
+      "time_of_sales": {
+        "total_trades": 0,
+        "trades": []
+      },
+      "nbbo": {
+        "timestamp": null,
+        "bid_price": null,
+        "bid_size": null,
+        "ask_price": null,
+        "ask_size": null,
+        "spread": 0
+      }
     },
     "MSFT": {
-      "open": 424.57,
-      "high": 429.92,
-      "low": 421.9,
-      "close": 429.25,
-      "volume": 30436186.0
+      "ohlcv": {
+        "open": 424.57,
+        "high": 429.92,
+        "low": 421.9,
+        "close": 429.25,
+        "volume": 30436186.0
+      },
+      "time_of_sales": {
+        "total_trades": 0,
+        "trades": []
+      },
+      "nbbo": {
+        "timestamp": null,
+        "bid_price": null,
+        "bid_size": null,
+        "ask_price": null,
+        "ask_size": null,
+        "spread": 0
+      }
     },
     "TSLA": {
-      "open": 374.675,
-      "high": 382.29,
-      "low": 372.54,
-      "close": 376.02,
-      "volume": 50860777.0
+      "ohlcv": {
+        "open": 374.675,
+        "high": 382.29,
+        "low": 372.54,
+        "close": 376.02,
+        "volume": 50860777.0
+      },
+      "time_of_sales": {
+        "total_trades": 0,
+        "trades": []
+      },
+      "nbbo": {
+        "timestamp": null,
+        "bid_price": null,
+        "bid_size": null,
+        "ask_price": null,
+        "ask_size": null,
+        "spread": 0
+      }
     },
     "SPY": {
-      "open": 711.815,
-      "high": 712.88,
-      "low": 709.25,
-      "close": 711.69,
-      "volume": 43117526.0
+      "ohlcv": {
+        "open": 711.815,
+        "high": 712.88,
+        "low": 709.25,
+        "close": 711.69,
+        "volume": 43117526.0
+      },
+      "time_of_sales": {
+        "total_trades": 0,
+        "trades": []
+      },
+      "nbbo": {
+        "timestamp": null,
+        "bid_price": null,
+        "bid_size": null,
+        "ask_price": null,
+        "ask_size": null,
+        "spread": 0
+      }
     },
     "QQQ": {
-      "open": 657.41,
-      "high": 659.64,
-      "low": 653.81,
-      "close": 657.55,
-      "volume": 34141652.0
+      "ohlcv": {
+        "open": 657.41,
+        "high": 659.64,
+        "low": 653.81,
+        "close": 657.55,
+        "volume": 34141652.0
+      },
+      "time_of_sales": {
+        "total_trades": 0,
+        "trades": []
+      },
+      "nbbo": {
+        "timestamp": null,
+        "bid_price": null,
+        "bid_size": null,
+        "ask_price": null,
+        "ask_size": null,
+        "spread": 0
+      }
     }
   }
 }
