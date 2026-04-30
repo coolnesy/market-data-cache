@@ -4,11 +4,13 @@ import os
 from datetime import datetime, timedelta, timezone
 
 POLYGON_KEY = os.environ.get("POLYGON_API_KEY")
+FINNHUB_KEY = os.environ.get("FINNHUB_API_KEY")
+
 print(f"POLYGON_KEY loaded: {bool(POLYGON_KEY)}")
+print(f"FINNHUB_KEY loaded: {bool(FINNHUB_KEY)}")
 
 TICKER = "AR"
 
-# Date range — last 2 trading days to ensure we capture a full session
 today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 yesterday = (datetime.now(timezone.utc) - timedelta(days=2)).strftime("%Y-%m-%d")
 
@@ -21,7 +23,7 @@ output = {
 stock_data = {}
 
 # ─────────────────────────────────────────
-# 1. PREVIOUS DAY OHLCV
+# 1. PREVIOUS DAY OHLCV (Polygon)
 # ─────────────────────────────────────────
 try:
     url = f"https://api.polygon.io/v2/aggs/ticker/{TICKER}/prev?adjusted=true&apiKey={POLYGON_KEY}"
@@ -41,8 +43,7 @@ except Exception as e:
     print(f"  OHLCV: ERROR - {e}")
 
 # ─────────────────────────────────────────
-# 2. 1-MINUTE BARS (last 2 days)
-#    ~800 rows — tiny file, full detail
+# 2. 1-MINUTE BARS (Polygon)
 # ─────────────────────────────────────────
 try:
     url = (
@@ -62,7 +63,7 @@ try:
             "close":     b.get("c"),
             "volume":    b.get("v"),
             "vwap":      b.get("vw"),
-            "trades":    b.get("n"),  # number of trades in this bar
+            "trades":    b.get("n"),
         })
     stock_data["minute_bars"] = {
         "total_bars": len(bars),
@@ -74,26 +75,42 @@ except Exception as e:
     print(f"  Minute bars: ERROR - {e}")
 
 # ─────────────────────────────────────────
-# 3. LAST 50 TRADES (ToS sample)
+# 3. TIME OF SALES (Finnhub)
+#    Last 50 trades
 # ─────────────────────────────────────────
 try:
+    # Finnhub uses Unix seconds
+    to_ts = int(datetime.now(timezone.utc).timestamp())
+    from_ts = to_ts - 3600  # last 1 hour of trades
+
     url = (
-        f"https://api.polygon.io/v3/trades/{TICKER}"
-        f"?limit=50&order=desc&sort=timestamp&apiKey={POLYGON_KEY}"
+        f"https://finnhub.io/api/v1/stock/tick"
+        f"?symbol={TICKER}"
+        f"&date={today}"
+        f"&limit=50"
+        f"&skip=0"
+        f"&token={FINNHUB_KEY}"
     )
-    r = requests.get(url, timeout=10)
-    trades_raw = r.json().get("results", [])
+    r = requests.get(url, timeout=15)
+    data = r.json()
+    print(f"  Finnhub ToS raw response keys: {list(data.keys())}")
+
     trades = []
-    for t in trades_raw:
+    timestamps = data.get("t", [])
+    prices     = data.get("p", [])
+    volumes    = data.get("v", [])
+    conditions = data.get("c", [])
+
+    for i in range(len(timestamps)):
         trades.append({
-            "timestamp": t.get("sip_timestamp"),
-            "price":     t.get("price"),
-            "size":      t.get("size"),
-            "exchange":  t.get("exchange"),
-            "conditions": t.get("conditions", []),
+            "timestamp": timestamps[i],
+            "price":     prices[i] if i < len(prices) else None,
+            "size":      volumes[i] if i < len(volumes) else None,
+            "conditions": conditions[i] if i < len(conditions) else [],
         })
+
     stock_data["time_of_sales"] = {
-        "note": "Last 50 trades (snapshot)",
+        "note": "Last 50 trades via Finnhub",
         "total_trades": len(trades),
         "trades": trades
     }
@@ -103,28 +120,28 @@ except Exception as e:
     print(f"  ToS: ERROR - {e}")
 
 # ─────────────────────────────────────────
-# 4. NBBO QUOTE SNAPSHOT
+# 4. NBBO QUOTE (Finnhub)
 # ─────────────────────────────────────────
 try:
-    url = (
-        f"https://api.polygon.io/v3/quotes/{TICKER}"
-        f"?limit=1&order=desc&sort=timestamp&apiKey={POLYGON_KEY}"
-    )
+    url = f"https://finnhub.io/api/v1/quote?symbol={TICKER}&token={FINNHUB_KEY}"
     r = requests.get(url, timeout=10)
-    quotes_raw = r.json().get("results", [{}])
-    q = quotes_raw[0] if quotes_raw else {}
+    q = r.json()
+    print(f"  Finnhub Quote raw: {q}")
+
     stock_data["nbbo"] = {
-        "timestamp": q.get("sip_timestamp"),
-        "bid_price": q.get("bid_price"),
-        "bid_size":  q.get("bid_size"),
-        "ask_price": q.get("ask_price"),
-        "ask_size":  q.get("ask_size"),
-        "spread":    round((q.get("ask_price") or 0) - (q.get("bid_price") or 0), 4),
+        "timestamp":   q.get("t"),
+        "current":     q.get("c"),
+        "open":        q.get("o"),
+        "high":        q.get("h"),
+        "low":         q.get("l"),
+        "prev_close":  q.get("pc"),
+        "change":      round((q.get("c") or 0) - (q.get("pc") or 0), 4),
+        "change_pct":  round(((q.get("c") or 0) - (q.get("pc") or 0)) / (q.get("pc") or 1) * 100, 4),
     }
-    print(f"  NBBO: bid={stock_data['nbbo']['bid_price']} ask={stock_data['nbbo']['ask_price']}")
+    print(f"  Quote: current={stock_data['nbbo']['current']} change={stock_data['nbbo']['change']}")
 except Exception as e:
     stock_data["nbbo"] = {"error": str(e)}
-    print(f"  NBBO: ERROR - {e}")
+    print(f"  Quote: ERROR - {e}")
 
 output["stocks"][TICKER] = stock_data
 
