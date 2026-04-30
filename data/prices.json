@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-30T17:48:38.307704Z",
+  "last_updated": "2026-04-30T18:27:00.880407Z",
   "ticker": "AR",
   "stocks": {
     "AR": {
@@ -8267,17 +8267,19 @@
         ]
       },
       "time_of_sales": {
-        "note": "Last 50 trades (snapshot)",
+        "note": "Last 50 trades via Finnhub",
         "total_trades": 0,
         "trades": []
       },
       "nbbo": {
-        "timestamp": null,
-        "bid_price": null,
-        "bid_size": null,
-        "ask_price": null,
-        "ask_size": null,
-        "spread": 0
+        "timestamp": 1777573594,
+        "current": 39.26,
+        "open": 38.635000000000005,
+        "high": 39.63,
+        "low": 37.9,
+        "prev_close": 39.01,
+        "change": 0.25,
+        "change_pct": 0.6409
       }
     }
   }
