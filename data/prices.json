@@ -1,15 +1,10 @@
 {
-  "last_updated": "2026-05-15T17:07:13.159341Z",
+  "last_updated": "2026-05-15T19:00:56.322481Z",
   "ticker": "AR",
   "stocks": {
     "AR": {
       "ohlcv": {
-        "open": 36.67,
-        "high": 37.45,
-        "low": 36.51,
-        "close": 37.08,
-        "volume": 2804255.0,
-        "vwap": 37.0859
+        "error": "HTTPSConnectionPool(host='api.polygon.io', port=443): Read timed out. (read timeout=10)"
       },
       "minute_bars": {
         "total_bars": 827,
@@ -8292,14 +8287,14 @@
         "trades": []
       },
       "nbbo": {
-        "timestamp": 1778864824,
-        "current": 38.01,
+        "timestamp": 1778871631,
+        "current": 38.13,
         "open": 37.6,
-        "high": 38.02,
+        "high": 38.16,
         "low": 37.27,
         "prev_close": 37.08,
-        "change": 0.93,
-        "change_pct": 2.5081
+        "change": 1.05,
+        "change_pct": 2.8317
       }
     }
   }
