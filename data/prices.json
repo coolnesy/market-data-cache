@@ -1,18 +1,18 @@
 {
-  "last_updated": "2026-06-02T22:31:55.293864Z",
+  "last_updated": "2026-06-03T17:55:01.060347Z",
   "ticker": "AR",
   "stocks": {
     "AR": {
       "ohlcv": {
-        "open": 36.1,
-        "high": 37.43,
-        "low": 35.93,
-        "close": 36.76,
-        "volume": 5188503.0,
-        "vwap": 36.9079
+        "open": 36.61,
+        "high": 36.76,
+        "low": 36.03,
+        "close": 36.26,
+        "volume": 4658540.0,
+        "vwap": 36.3666
       },
       "minute_bars": {
-        "total_bars": 411,
+        "total_bars": 812,
         "bars": [
           {
             "timestamp": 1780300800000,
@@ -4123,6 +4123,4016 @@
             "volume": 100,
             "vwap": 36.95,
             "trades": 1
+          },
+          {
+            "timestamp": 1780387320000,
+            "open": 36.4,
+            "high": 36.4,
+            "low": 36.4,
+            "close": 36.4,
+            "volume": 128,
+            "vwap": 36.4,
+            "trades": 1
+          },
+          {
+            "timestamp": 1780391220000,
+            "open": 37.48,
+            "high": 37.48,
+            "low": 37.48,
+            "close": 37.48,
+            "volume": 100,
+            "vwap": 37.48,
+            "trades": 1
+          },
+          {
+            "timestamp": 1780392480000,
+            "open": 37,
+            "high": 37,
+            "low": 37,
+            "close": 37,
+            "volume": 300,
+            "vwap": 37,
+            "trades": 1
+          },
+          {
+            "timestamp": 1780398540000,
+            "open": 37,
+            "high": 37,
+            "low": 37,
+            "close": 37,
+            "volume": 111,
+            "vwap": 36.9544,
+            "trades": 2
+          },
+          {
+            "timestamp": 1780399860000,
+            "open": 36.74,
+            "high": 36.75,
+            "low": 36.74,
+            "close": 36.75,
+            "volume": 1000,
+            "vwap": 36.746,
+            "trades": 7
+          },
+          {
+            "timestamp": 1780400460000,
+            "open": 36.55,
+            "high": 36.55,
+            "low": 36.55,
+            "close": 36.55,
+            "volume": 200,
+            "vwap": 36.55,
+            "trades": 1
+          },
+          {
+            "timestamp": 1780400700000,
+            "open": 36.54,
+            "high": 36.54,
+            "low": 36.54,
+            "close": 36.54,
+            "volume": 550,
+            "vwap": 36.54,
+            "trades": 1
+          },
+          {
+            "timestamp": 1780405080000,
+            "open": 36.7,
+            "high": 36.7,
+            "low": 36.7,
+            "close": 36.7,
+            "volume": 125,
+            "vwap": 36.686,
+            "trades": 2
+          },
+          {
+            "timestamp": 1780406220000,
+            "open": 36.65,
+            "high": 36.65,
+            "low": 36.65,
+            "close": 36.65,
+            "volume": 1000,
+            "vwap": 36.6489,
+            "trades": 2
+          },
+          {
+            "timestamp": 1780407000000,
+            "open": 36.61,
+            "high": 36.65,
+            "low": 36.38,
+            "close": 36.65,
+            "volume": 35791.915193,
+            "vwap": 36.5795,
+            "trades": 115
+          },
+          {
+            "timestamp": 1780407060000,
+            "open": 36.62,
+            "high": 36.62,
+            "low": 36.5501,
+            "close": 36.62,
+            "volume": 993,
+            "vwap": 36.6148,
+            "trades": 20
+          },
+          {
+            "timestamp": 1780407120000,
+            "open": 36.69,
+            "high": 36.71,
+            "low": 36.68,
+            "close": 36.68,
+            "volume": 1294,
+            "vwap": 36.6956,
+            "trades": 31
+          },
+          {
+            "timestamp": 1780407180000,
+            "open": 36.68,
+            "high": 36.75,
+            "low": 36.68,
+            "close": 36.69,
+            "volume": 1601,
+            "vwap": 36.7035,
+            "trades": 26
+          },
+          {
+            "timestamp": 1780407240000,
+            "open": 36.69,
+            "high": 36.76,
+            "low": 36.69,
+            "close": 36.73,
+            "volume": 5600,
+            "vwap": 36.7453,
+            "trades": 57
+          },
+          {
+            "timestamp": 1780407300000,
+            "open": 36.69,
+            "high": 36.69,
+            "low": 36.55,
+            "close": 36.573551,
+            "volume": 11257.62335,
+            "vwap": 36.6154,
+            "trades": 67
+          },
+          {
+            "timestamp": 1780407360000,
+            "open": 36.55,
+            "high": 36.57,
+            "low": 36.485,
+            "close": 36.485,
+            "volume": 27473.05,
+            "vwap": 36.5414,
+            "trades": 179
+          },
+          {
+            "timestamp": 1780407420000,
+            "open": 36.48,
+            "high": 36.48,
+            "low": 36.439,
+            "close": 36.4637,
+            "volume": 8611.460926,
+            "vwap": 36.4543,
+            "trades": 21
+          },
+          {
+            "timestamp": 1780407480000,
+            "open": 36.4,
+            "high": 36.4,
+            "low": 36.24,
+            "close": 36.255,
+            "volume": 10224,
+            "vwap": 36.3097,
+            "trades": 109
+          },
+          {
+            "timestamp": 1780407540000,
+            "open": 36.24,
+            "high": 36.31,
+            "low": 36.22,
+            "close": 36.29,
+            "volume": 8510,
+            "vwap": 36.2769,
+            "trades": 114
+          },
+          {
+            "timestamp": 1780407600000,
+            "open": 36.31,
+            "high": 36.32,
+            "low": 36.28,
+            "close": 36.305,
+            "volume": 4618.182938,
+            "vwap": 36.3093,
+            "trades": 64
+          },
+          {
+            "timestamp": 1780407660000,
+            "open": 36.3399,
+            "high": 36.3399,
+            "low": 36.21,
+            "close": 36.22,
+            "volume": 7000.0005,
+            "vwap": 36.2645,
+            "trades": 74
+          },
+          {
+            "timestamp": 1780407720000,
+            "open": 36.21,
+            "high": 36.25,
+            "low": 36.18,
+            "close": 36.23,
+            "volume": 13993.03466,
+            "vwap": 36.227,
+            "trades": 123
+          },
+          {
+            "timestamp": 1780407780000,
+            "open": 36.2613,
+            "high": 36.32,
+            "low": 36.244,
+            "close": 36.315,
+            "volume": 4582.1641,
+            "vwap": 36.2946,
+            "trades": 71
+          },
+          {
+            "timestamp": 1780407840000,
+            "open": 36.33,
+            "high": 36.33,
+            "low": 36.3,
+            "close": 36.33,
+            "volume": 7003.864,
+            "vwap": 36.3213,
+            "trades": 128
+          },
+          {
+            "timestamp": 1780407900000,
+            "open": 36.34,
+            "high": 36.4,
+            "low": 36.34,
+            "close": 36.37,
+            "volume": 7992.24084,
+            "vwap": 36.3734,
+            "trades": 97
+          },
+          {
+            "timestamp": 1780407960000,
+            "open": 36.34,
+            "high": 36.355,
+            "low": 36.33,
+            "close": 36.355,
+            "volume": 6694.15214,
+            "vwap": 36.3362,
+            "trades": 45
+          },
+          {
+            "timestamp": 1780408020000,
+            "open": 36.35,
+            "high": 36.35,
+            "low": 36.31,
+            "close": 36.31,
+            "volume": 1559,
+            "vwap": 36.3368,
+            "trades": 34
+          },
+          {
+            "timestamp": 1780408080000,
+            "open": 36.31,
+            "high": 36.31,
+            "low": 36.2,
+            "close": 36.24,
+            "volume": 5701.027556,
+            "vwap": 36.2471,
+            "trades": 106
+          },
+          {
+            "timestamp": 1780408140000,
+            "open": 36.25,
+            "high": 36.27,
+            "low": 36.24,
+            "close": 36.26,
+            "volume": 5308.616317,
+            "vwap": 36.2623,
+            "trades": 58
+          },
+          {
+            "timestamp": 1780408200000,
+            "open": 36.28,
+            "high": 36.285,
+            "low": 36.2,
+            "close": 36.2,
+            "volume": 5389,
+            "vwap": 36.2381,
+            "trades": 102
+          },
+          {
+            "timestamp": 1780408260000,
+            "open": 36.2,
+            "high": 36.21,
+            "low": 36.16,
+            "close": 36.19,
+            "volume": 9900,
+            "vwap": 36.195,
+            "trades": 149
+          },
+          {
+            "timestamp": 1780408320000,
+            "open": 36.18,
+            "high": 36.19,
+            "low": 36.17,
+            "close": 36.19,
+            "volume": 5505,
+            "vwap": 36.1931,
+            "trades": 70
+          },
+          {
+            "timestamp": 1780408380000,
+            "open": 36.12,
+            "high": 36.14,
+            "low": 36.03,
+            "close": 36.045,
+            "volume": 11301,
+            "vwap": 36.0751,
+            "trades": 168
+          },
+          {
+            "timestamp": 1780408440000,
+            "open": 36.06,
+            "high": 36.1091,
+            "low": 36.06,
+            "close": 36.09,
+            "volume": 10985.98218,
+            "vwap": 36.0778,
+            "trades": 137
+          },
+          {
+            "timestamp": 1780408500000,
+            "open": 36.09,
+            "high": 36.11,
+            "low": 36.085,
+            "close": 36.095,
+            "volume": 9836,
+            "vwap": 36.1002,
+            "trades": 114
+          },
+          {
+            "timestamp": 1780408560000,
+            "open": 36.11,
+            "high": 36.12,
+            "low": 36.095,
+            "close": 36.095,
+            "volume": 14307.0035,
+            "vwap": 36.1097,
+            "trades": 141
+          },
+          {
+            "timestamp": 1780408620000,
+            "open": 36.089,
+            "high": 36.13,
+            "low": 36.055,
+            "close": 36.13,
+            "volume": 15858,
+            "vwap": 36.0913,
+            "trades": 194
+          },
+          {
+            "timestamp": 1780408680000,
+            "open": 36.129,
+            "high": 36.18,
+            "low": 36.105,
+            "close": 36.18,
+            "volume": 14910.233989,
+            "vwap": 36.1492,
+            "trades": 193
+          },
+          {
+            "timestamp": 1780408740000,
+            "open": 36.18,
+            "high": 36.19,
+            "low": 36.135,
+            "close": 36.14,
+            "volume": 17210,
+            "vwap": 36.1714,
+            "trades": 123
+          },
+          {
+            "timestamp": 1780408800000,
+            "open": 36.17,
+            "high": 36.22,
+            "low": 36.16,
+            "close": 36.16,
+            "volume": 5139.02365,
+            "vwap": 36.1841,
+            "trades": 155
+          },
+          {
+            "timestamp": 1780408860000,
+            "open": 36.17,
+            "high": 36.23,
+            "low": 36.14,
+            "close": 36.19,
+            "volume": 16287.309706,
+            "vwap": 36.192,
+            "trades": 304
+          },
+          {
+            "timestamp": 1780408920000,
+            "open": 36.18,
+            "high": 36.23,
+            "low": 36.15,
+            "close": 36.23,
+            "volume": 10531.32028,
+            "vwap": 36.1876,
+            "trades": 230
+          },
+          {
+            "timestamp": 1780408980000,
+            "open": 36.23,
+            "high": 36.276,
+            "low": 36.215,
+            "close": 36.255,
+            "volume": 4786.40787,
+            "vwap": 36.2284,
+            "trades": 167
+          },
+          {
+            "timestamp": 1780409040000,
+            "open": 36.25,
+            "high": 36.26,
+            "low": 36.25,
+            "close": 36.26,
+            "volume": 2349.09091,
+            "vwap": 36.2511,
+            "trades": 124
+          },
+          {
+            "timestamp": 1780409100000,
+            "open": 36.255,
+            "high": 36.39,
+            "low": 36.255,
+            "close": 36.39,
+            "volume": 16381.60149,
+            "vwap": 36.3057,
+            "trades": 339
+          },
+          {
+            "timestamp": 1780409160000,
+            "open": 36.39,
+            "high": 36.39,
+            "low": 36.35,
+            "close": 36.39,
+            "volume": 9585.31301,
+            "vwap": 36.3671,
+            "trades": 185
+          },
+          {
+            "timestamp": 1780409220000,
+            "open": 36.41,
+            "high": 36.42,
+            "low": 36.34,
+            "close": 36.37,
+            "volume": 13502.47797,
+            "vwap": 36.3865,
+            "trades": 294
+          },
+          {
+            "timestamp": 1780409280000,
+            "open": 36.36,
+            "high": 36.376,
+            "low": 36.34,
+            "close": 36.37,
+            "volume": 6127.00233,
+            "vwap": 36.3578,
+            "trades": 189
+          },
+          {
+            "timestamp": 1780409340000,
+            "open": 36.37,
+            "high": 36.448,
+            "low": 36.37,
+            "close": 36.39,
+            "volume": 19940.9649,
+            "vwap": 36.3996,
+            "trades": 293
+          },
+          {
+            "timestamp": 1780409400000,
+            "open": 36.38,
+            "high": 36.4,
+            "low": 36.37,
+            "close": 36.37,
+            "volume": 5399.37755,
+            "vwap": 36.3798,
+            "trades": 186
+          },
+          {
+            "timestamp": 1780409460000,
+            "open": 36.36,
+            "high": 36.37,
+            "low": 36.31,
+            "close": 36.31,
+            "volume": 8506.68776,
+            "vwap": 36.3322,
+            "trades": 215
+          },
+          {
+            "timestamp": 1780409520000,
+            "open": 36.32,
+            "high": 36.32,
+            "low": 36.29,
+            "close": 36.31,
+            "volume": 19515.01784,
+            "vwap": 36.3041,
+            "trades": 342
+          },
+          {
+            "timestamp": 1780409580000,
+            "open": 36.31,
+            "high": 36.32,
+            "low": 36.262,
+            "close": 36.28,
+            "volume": 24654.65935,
+            "vwap": 36.2991,
+            "trades": 364
+          },
+          {
+            "timestamp": 1780409640000,
+            "open": 36.285,
+            "high": 36.32,
+            "low": 36.285,
+            "close": 36.31,
+            "volume": 16722.70185,
+            "vwap": 36.2967,
+            "trades": 191
+          },
+          {
+            "timestamp": 1780409700000,
+            "open": 36.32,
+            "high": 36.34,
+            "low": 36.32,
+            "close": 36.34,
+            "volume": 6291.967125,
+            "vwap": 36.3333,
+            "trades": 189
+          },
+          {
+            "timestamp": 1780409760000,
+            "open": 36.35,
+            "high": 36.37,
+            "low": 36.349,
+            "close": 36.35,
+            "volume": 9631.30754,
+            "vwap": 36.3609,
+            "trades": 254
+          },
+          {
+            "timestamp": 1780409820000,
+            "open": 36.35,
+            "high": 36.42,
+            "low": 36.35,
+            "close": 36.42,
+            "volume": 7238.8505,
+            "vwap": 36.3802,
+            "trades": 190
+          },
+          {
+            "timestamp": 1780409880000,
+            "open": 36.42,
+            "high": 36.43,
+            "low": 36.41,
+            "close": 36.42,
+            "volume": 7036.34912,
+            "vwap": 36.4195,
+            "trades": 177
+          },
+          {
+            "timestamp": 1780409940000,
+            "open": 36.405,
+            "high": 36.41,
+            "low": 36.36,
+            "close": 36.39,
+            "volume": 13907.86626,
+            "vwap": 36.3853,
+            "trades": 216
+          },
+          {
+            "timestamp": 1780410000000,
+            "open": 36.38,
+            "high": 36.435,
+            "low": 36.37,
+            "close": 36.435,
+            "volume": 9650.48722,
+            "vwap": 36.4076,
+            "trades": 216
+          },
+          {
+            "timestamp": 1780410060000,
+            "open": 36.44,
+            "high": 36.48,
+            "low": 36.44,
+            "close": 36.48,
+            "volume": 8348.17832,
+            "vwap": 36.4559,
+            "trades": 196
+          },
+          {
+            "timestamp": 1780410120000,
+            "open": 36.475,
+            "high": 36.48,
+            "low": 36.465,
+            "close": 36.48,
+            "volume": 7881.44664,
+            "vwap": 36.4716,
+            "trades": 177
+          },
+          {
+            "timestamp": 1780410180000,
+            "open": 36.485,
+            "high": 36.515,
+            "low": 36.485,
+            "close": 36.515,
+            "volume": 11866.4149,
+            "vwap": 36.4999,
+            "trades": 215
+          },
+          {
+            "timestamp": 1780410240000,
+            "open": 36.515,
+            "high": 36.515,
+            "low": 36.46,
+            "close": 36.46,
+            "volume": 8545.28238,
+            "vwap": 36.4992,
+            "trades": 216
+          },
+          {
+            "timestamp": 1780410300000,
+            "open": 36.47,
+            "high": 36.485,
+            "low": 36.45,
+            "close": 36.47,
+            "volume": 8569.27159,
+            "vwap": 36.4646,
+            "trades": 181
+          },
+          {
+            "timestamp": 1780410360000,
+            "open": 36.48,
+            "high": 36.535,
+            "low": 36.48,
+            "close": 36.53,
+            "volume": 11395.62402,
+            "vwap": 36.501,
+            "trades": 254
+          },
+          {
+            "timestamp": 1780410420000,
+            "open": 36.53,
+            "high": 36.53,
+            "low": 36.46,
+            "close": 36.46,
+            "volume": 6829.33579,
+            "vwap": 36.499,
+            "trades": 173
+          },
+          {
+            "timestamp": 1780410480000,
+            "open": 36.45,
+            "high": 36.45,
+            "low": 36.415,
+            "close": 36.42,
+            "volume": 4746.74036,
+            "vwap": 36.4347,
+            "trades": 152
+          },
+          {
+            "timestamp": 1780410540000,
+            "open": 36.42,
+            "high": 36.42,
+            "low": 36.36,
+            "close": 36.36,
+            "volume": 6815.16591,
+            "vwap": 36.3977,
+            "trades": 157
+          },
+          {
+            "timestamp": 1780410600000,
+            "open": 36.36,
+            "high": 36.385,
+            "low": 36.35,
+            "close": 36.385,
+            "volume": 10946.95316,
+            "vwap": 36.3628,
+            "trades": 247
+          },
+          {
+            "timestamp": 1780410660000,
+            "open": 36.38,
+            "high": 36.38,
+            "low": 36.33,
+            "close": 36.35,
+            "volume": 7840.039594,
+            "vwap": 36.3566,
+            "trades": 202
+          },
+          {
+            "timestamp": 1780410720000,
+            "open": 36.345,
+            "high": 36.375,
+            "low": 36.345,
+            "close": 36.36,
+            "volume": 5274.88412,
+            "vwap": 36.3584,
+            "trades": 164
+          },
+          {
+            "timestamp": 1780410780000,
+            "open": 36.34,
+            "high": 36.35,
+            "low": 36.33,
+            "close": 36.33,
+            "volume": 5852.87209,
+            "vwap": 36.3448,
+            "trades": 177
+          },
+          {
+            "timestamp": 1780410840000,
+            "open": 36.33,
+            "high": 36.415,
+            "low": 36.33,
+            "close": 36.415,
+            "volume": 10387.215669,
+            "vwap": 36.373,
+            "trades": 180
+          },
+          {
+            "timestamp": 1780410900000,
+            "open": 36.41,
+            "high": 36.43,
+            "low": 36.37,
+            "close": 36.38,
+            "volume": 5884.71599,
+            "vwap": 36.4056,
+            "trades": 175
+          },
+          {
+            "timestamp": 1780410960000,
+            "open": 36.385,
+            "high": 36.4,
+            "low": 36.37,
+            "close": 36.39,
+            "volume": 6545.79959,
+            "vwap": 36.3831,
+            "trades": 188
+          },
+          {
+            "timestamp": 1780411020000,
+            "open": 36.405,
+            "high": 36.415,
+            "low": 36.39,
+            "close": 36.415,
+            "volume": 5717.494015,
+            "vwap": 36.4003,
+            "trades": 167
+          },
+          {
+            "timestamp": 1780411080000,
+            "open": 36.415,
+            "high": 36.465,
+            "low": 36.4,
+            "close": 36.4,
+            "volume": 7848.73351,
+            "vwap": 36.4378,
+            "trades": 207
+          },
+          {
+            "timestamp": 1780411140000,
+            "open": 36.4,
+            "high": 36.48,
+            "low": 36.4,
+            "close": 36.47,
+            "volume": 13125.55632,
+            "vwap": 36.4504,
+            "trades": 269
+          },
+          {
+            "timestamp": 1780411200000,
+            "open": 36.475,
+            "high": 36.49,
+            "low": 36.43,
+            "close": 36.49,
+            "volume": 11332.50596,
+            "vwap": 36.4659,
+            "trades": 242
+          },
+          {
+            "timestamp": 1780411260000,
+            "open": 36.491,
+            "high": 36.555,
+            "low": 36.49,
+            "close": 36.555,
+            "volume": 8329.06531,
+            "vwap": 36.5102,
+            "trades": 224
+          },
+          {
+            "timestamp": 1780411320000,
+            "open": 36.565,
+            "high": 36.57,
+            "low": 36.53,
+            "close": 36.54,
+            "volume": 6673.434032,
+            "vwap": 36.5482,
+            "trades": 171
+          },
+          {
+            "timestamp": 1780411380000,
+            "open": 36.545,
+            "high": 36.58,
+            "low": 36.54,
+            "close": 36.56,
+            "volume": 10002.292915,
+            "vwap": 36.5614,
+            "trades": 219
+          },
+          {
+            "timestamp": 1780411440000,
+            "open": 36.55,
+            "high": 36.55,
+            "low": 36.5,
+            "close": 36.5,
+            "volume": 6556.51933,
+            "vwap": 36.5322,
+            "trades": 163
+          },
+          {
+            "timestamp": 1780411500000,
+            "open": 36.5,
+            "high": 36.53,
+            "low": 36.48,
+            "close": 36.53,
+            "volume": 9601.42687,
+            "vwap": 36.507,
+            "trades": 212
+          },
+          {
+            "timestamp": 1780411560000,
+            "open": 36.53,
+            "high": 36.599,
+            "low": 36.53,
+            "close": 36.599,
+            "volume": 10924.989442,
+            "vwap": 36.554,
+            "trades": 233
+          },
+          {
+            "timestamp": 1780411620000,
+            "open": 36.595,
+            "high": 36.615,
+            "low": 36.575,
+            "close": 36.575,
+            "volume": 4003.1617,
+            "vwap": 36.5967,
+            "trades": 133
+          },
+          {
+            "timestamp": 1780411680000,
+            "open": 36.57,
+            "high": 36.58,
+            "low": 36.53,
+            "close": 36.54,
+            "volume": 11870.87121,
+            "vwap": 36.551,
+            "trades": 234
+          },
+          {
+            "timestamp": 1780411740000,
+            "open": 36.54,
+            "high": 36.565,
+            "low": 36.535,
+            "close": 36.555,
+            "volume": 12384.907008,
+            "vwap": 36.5502,
+            "trades": 261
+          },
+          {
+            "timestamp": 1780411800000,
+            "open": 36.55,
+            "high": 36.58,
+            "low": 36.545,
+            "close": 36.58,
+            "volume": 6823.37249,
+            "vwap": 36.5608,
+            "trades": 168
+          },
+          {
+            "timestamp": 1780411860000,
+            "open": 36.58,
+            "high": 36.585,
+            "low": 36.55,
+            "close": 36.565,
+            "volume": 10892.61886,
+            "vwap": 36.5634,
+            "trades": 219
+          },
+          {
+            "timestamp": 1780411920000,
+            "open": 36.56,
+            "high": 36.56,
+            "low": 36.51,
+            "close": 36.51,
+            "volume": 5640.70183,
+            "vwap": 36.5383,
+            "trades": 174
+          },
+          {
+            "timestamp": 1780411980000,
+            "open": 36.5,
+            "high": 36.505,
+            "low": 36.47,
+            "close": 36.49,
+            "volume": 8841.12052,
+            "vwap": 36.4923,
+            "trades": 197
+          },
+          {
+            "timestamp": 1780412040000,
+            "open": 36.49,
+            "high": 36.49,
+            "low": 36.47,
+            "close": 36.48,
+            "volume": 4776.133828,
+            "vwap": 36.4809,
+            "trades": 144
+          },
+          {
+            "timestamp": 1780412100000,
+            "open": 36.485,
+            "high": 36.485,
+            "low": 36.455,
+            "close": 36.455,
+            "volume": 6587.32907,
+            "vwap": 36.4785,
+            "trades": 167
+          },
+          {
+            "timestamp": 1780412160000,
+            "open": 36.4593,
+            "high": 36.4593,
+            "low": 36.42,
+            "close": 36.44,
+            "volume": 7089.49537,
+            "vwap": 36.4444,
+            "trades": 193
+          },
+          {
+            "timestamp": 1780412220000,
+            "open": 36.44,
+            "high": 36.45,
+            "low": 36.39,
+            "close": 36.41,
+            "volume": 14973.03119,
+            "vwap": 36.4205,
+            "trades": 272
+          },
+          {
+            "timestamp": 1780412280000,
+            "open": 36.415,
+            "high": 36.44,
+            "low": 36.39,
+            "close": 36.43,
+            "volume": 15566.95008,
+            "vwap": 36.4098,
+            "trades": 277
+          },
+          {
+            "timestamp": 1780412340000,
+            "open": 36.43,
+            "high": 36.43,
+            "low": 36.39,
+            "close": 36.39,
+            "volume": 5980,
+            "vwap": 36.4126,
+            "trades": 107
+          },
+          {
+            "timestamp": 1780412400000,
+            "open": 36.4,
+            "high": 36.41,
+            "low": 36.39,
+            "close": 36.4,
+            "volume": 9694,
+            "vwap": 36.4096,
+            "trades": 154
+          },
+          {
+            "timestamp": 1780412460000,
+            "open": 36.4,
+            "high": 36.41,
+            "low": 36.395,
+            "close": 36.4,
+            "volume": 6088.134311,
+            "vwap": 36.4036,
+            "trades": 106
+          },
+          {
+            "timestamp": 1780412520000,
+            "open": 36.41,
+            "high": 36.445,
+            "low": 36.41,
+            "close": 36.43,
+            "volume": 9199,
+            "vwap": 36.4264,
+            "trades": 112
+          },
+          {
+            "timestamp": 1780412580000,
+            "open": 36.43,
+            "high": 36.43,
+            "low": 36.395,
+            "close": 36.395,
+            "volume": 12477,
+            "vwap": 36.4057,
+            "trades": 121
+          },
+          {
+            "timestamp": 1780412640000,
+            "open": 36.395,
+            "high": 36.395,
+            "low": 36.33,
+            "close": 36.365,
+            "volume": 13060,
+            "vwap": 36.3534,
+            "trades": 157
+          },
+          {
+            "timestamp": 1780412700000,
+            "open": 36.37,
+            "high": 36.395,
+            "low": 36.37,
+            "close": 36.395,
+            "volume": 2889,
+            "vwap": 36.3832,
+            "trades": 62
+          },
+          {
+            "timestamp": 1780412760000,
+            "open": 36.395,
+            "high": 36.415,
+            "low": 36.39,
+            "close": 36.41,
+            "volume": 6768,
+            "vwap": 36.4016,
+            "trades": 113
+          },
+          {
+            "timestamp": 1780412820000,
+            "open": 36.41,
+            "high": 36.42,
+            "low": 36.4,
+            "close": 36.42,
+            "volume": 7081,
+            "vwap": 36.4082,
+            "trades": 103
+          },
+          {
+            "timestamp": 1780412880000,
+            "open": 36.42,
+            "high": 36.43,
+            "low": 36.41,
+            "close": 36.41,
+            "volume": 5004,
+            "vwap": 36.4174,
+            "trades": 86
+          },
+          {
+            "timestamp": 1780412940000,
+            "open": 36.41,
+            "high": 36.41,
+            "low": 36.38,
+            "close": 36.395,
+            "volume": 4267.039164,
+            "vwap": 36.3948,
+            "trades": 71
+          },
+          {
+            "timestamp": 1780413000000,
+            "open": 36.395,
+            "high": 36.41,
+            "low": 36.39,
+            "close": 36.405,
+            "volume": 6510,
+            "vwap": 36.4,
+            "trades": 90
+          },
+          {
+            "timestamp": 1780413060000,
+            "open": 36.405,
+            "high": 36.43,
+            "low": 36.405,
+            "close": 36.415,
+            "volume": 17606,
+            "vwap": 36.4214,
+            "trades": 176
+          },
+          {
+            "timestamp": 1780413120000,
+            "open": 36.415,
+            "high": 36.42,
+            "low": 36.4,
+            "close": 36.42,
+            "volume": 6097,
+            "vwap": 36.4104,
+            "trades": 77
+          },
+          {
+            "timestamp": 1780413180000,
+            "open": 36.415,
+            "high": 36.435,
+            "low": 36.41,
+            "close": 36.41,
+            "volume": 7228,
+            "vwap": 36.4238,
+            "trades": 108
+          },
+          {
+            "timestamp": 1780413240000,
+            "open": 36.415,
+            "high": 36.44,
+            "low": 36.415,
+            "close": 36.435,
+            "volume": 4572.137217,
+            "vwap": 36.4264,
+            "trades": 61
+          },
+          {
+            "timestamp": 1780413300000,
+            "open": 36.435,
+            "high": 36.44,
+            "low": 36.41,
+            "close": 36.41,
+            "volume": 6693,
+            "vwap": 36.4255,
+            "trades": 126
+          },
+          {
+            "timestamp": 1780413360000,
+            "open": 36.41,
+            "high": 36.42,
+            "low": 36.405,
+            "close": 36.405,
+            "volume": 10281.549168,
+            "vwap": 36.4153,
+            "trades": 165
+          },
+          {
+            "timestamp": 1780413420000,
+            "open": 36.405,
+            "high": 36.415,
+            "low": 36.4,
+            "close": 36.41,
+            "volume": 6302,
+            "vwap": 36.4075,
+            "trades": 82
+          },
+          {
+            "timestamp": 1780413480000,
+            "open": 36.405,
+            "high": 36.41,
+            "low": 36.36,
+            "close": 36.4,
+            "volume": 21683,
+            "vwap": 36.3795,
+            "trades": 196
+          },
+          {
+            "timestamp": 1780413540000,
+            "open": 36.395,
+            "high": 36.42,
+            "low": 36.395,
+            "close": 36.42,
+            "volume": 7955.36711,
+            "vwap": 36.4119,
+            "trades": 79
+          },
+          {
+            "timestamp": 1780413600000,
+            "open": 36.43,
+            "high": 36.435,
+            "low": 36.4,
+            "close": 36.4,
+            "volume": 4791.2,
+            "vwap": 36.4245,
+            "trades": 74
+          },
+          {
+            "timestamp": 1780413660000,
+            "open": 36.4,
+            "high": 36.41,
+            "low": 36.4,
+            "close": 36.405,
+            "volume": 2145,
+            "vwap": 36.4038,
+            "trades": 41
+          },
+          {
+            "timestamp": 1780413720000,
+            "open": 36.405,
+            "high": 36.41,
+            "low": 36.39,
+            "close": 36.405,
+            "volume": 6541,
+            "vwap": 36.4008,
+            "trades": 105
+          },
+          {
+            "timestamp": 1780413780000,
+            "open": 36.405,
+            "high": 36.435,
+            "low": 36.39,
+            "close": 36.43,
+            "volume": 6301,
+            "vwap": 36.4132,
+            "trades": 93
+          },
+          {
+            "timestamp": 1780413840000,
+            "open": 36.425,
+            "high": 36.47,
+            "low": 36.425,
+            "close": 36.44,
+            "volume": 18983,
+            "vwap": 36.4576,
+            "trades": 182
+          },
+          {
+            "timestamp": 1780413900000,
+            "open": 36.43,
+            "high": 36.43,
+            "low": 36.42,
+            "close": 36.42,
+            "volume": 3612,
+            "vwap": 36.4229,
+            "trades": 70
+          },
+          {
+            "timestamp": 1780413960000,
+            "open": 36.41,
+            "high": 36.41,
+            "low": 36.39,
+            "close": 36.395,
+            "volume": 5717.723254,
+            "vwap": 36.4016,
+            "trades": 91
+          },
+          {
+            "timestamp": 1780414020000,
+            "open": 36.39,
+            "high": 36.39,
+            "low": 36.37,
+            "close": 36.37,
+            "volume": 5752,
+            "vwap": 36.3833,
+            "trades": 95
+          },
+          {
+            "timestamp": 1780414080000,
+            "open": 36.37,
+            "high": 36.455,
+            "low": 36.37,
+            "close": 36.445,
+            "volume": 11388.263,
+            "vwap": 36.4113,
+            "trades": 196
+          },
+          {
+            "timestamp": 1780414140000,
+            "open": 36.445,
+            "high": 36.455,
+            "low": 36.43,
+            "close": 36.445,
+            "volume": 5684,
+            "vwap": 36.4415,
+            "trades": 89
+          },
+          {
+            "timestamp": 1780414200000,
+            "open": 36.445,
+            "high": 36.445,
+            "low": 36.41,
+            "close": 36.44,
+            "volume": 6242,
+            "vwap": 36.4308,
+            "trades": 113
+          },
+          {
+            "timestamp": 1780414260000,
+            "open": 36.435,
+            "high": 36.455,
+            "low": 36.425,
+            "close": 36.45,
+            "volume": 6800.483398,
+            "vwap": 36.4388,
+            "trades": 106
+          },
+          {
+            "timestamp": 1780414320000,
+            "open": 36.44,
+            "high": 36.46,
+            "low": 36.44,
+            "close": 36.45,
+            "volume": 4232,
+            "vwap": 36.4481,
+            "trades": 78
+          },
+          {
+            "timestamp": 1780414380000,
+            "open": 36.44,
+            "high": 36.44,
+            "low": 36.41,
+            "close": 36.42,
+            "volume": 4935.883,
+            "vwap": 36.4251,
+            "trades": 86
+          },
+          {
+            "timestamp": 1780414440000,
+            "open": 36.43,
+            "high": 36.435,
+            "low": 36.425,
+            "close": 36.425,
+            "volume": 3208,
+            "vwap": 36.4298,
+            "trades": 46
+          },
+          {
+            "timestamp": 1780414500000,
+            "open": 36.425,
+            "high": 36.435,
+            "low": 36.425,
+            "close": 36.435,
+            "volume": 4963,
+            "vwap": 36.4313,
+            "trades": 57
+          },
+          {
+            "timestamp": 1780414560000,
+            "open": 36.435,
+            "high": 36.44,
+            "low": 36.425,
+            "close": 36.435,
+            "volume": 6982.0348,
+            "vwap": 36.4329,
+            "trades": 115
+          },
+          {
+            "timestamp": 1780414620000,
+            "open": 36.43,
+            "high": 36.455,
+            "low": 36.415,
+            "close": 36.455,
+            "volume": 7444,
+            "vwap": 36.4276,
+            "trades": 142
+          },
+          {
+            "timestamp": 1780414680000,
+            "open": 36.46,
+            "high": 36.465,
+            "low": 36.46,
+            "close": 36.46,
+            "volume": 3274.001596,
+            "vwap": 36.459,
+            "trades": 72
+          },
+          {
+            "timestamp": 1780414740000,
+            "open": 36.47,
+            "high": 36.52,
+            "low": 36.47,
+            "close": 36.485,
+            "volume": 11139,
+            "vwap": 36.4943,
+            "trades": 178
+          },
+          {
+            "timestamp": 1780414800000,
+            "open": 36.485,
+            "high": 36.495,
+            "low": 36.48,
+            "close": 36.485,
+            "volume": 4707,
+            "vwap": 36.4862,
+            "trades": 70
+          },
+          {
+            "timestamp": 1780414860000,
+            "open": 36.485,
+            "high": 36.485,
+            "low": 36.47,
+            "close": 36.47,
+            "volume": 6610,
+            "vwap": 36.4757,
+            "trades": 61
+          },
+          {
+            "timestamp": 1780414920000,
+            "open": 36.47,
+            "high": 36.49,
+            "low": 36.455,
+            "close": 36.46,
+            "volume": 7423,
+            "vwap": 36.4751,
+            "trades": 121
+          },
+          {
+            "timestamp": 1780414980000,
+            "open": 36.46,
+            "high": 36.48,
+            "low": 36.455,
+            "close": 36.47,
+            "volume": 4948,
+            "vwap": 36.4648,
+            "trades": 75
+          },
+          {
+            "timestamp": 1780415040000,
+            "open": 36.47,
+            "high": 36.49,
+            "low": 36.47,
+            "close": 36.475,
+            "volume": 8178,
+            "vwap": 36.481,
+            "trades": 129
+          },
+          {
+            "timestamp": 1780415100000,
+            "open": 36.47,
+            "high": 36.475,
+            "low": 36.47,
+            "close": 36.47,
+            "volume": 4088,
+            "vwap": 36.471,
+            "trades": 77
+          },
+          {
+            "timestamp": 1780415160000,
+            "open": 36.475,
+            "high": 36.485,
+            "low": 36.47,
+            "close": 36.47,
+            "volume": 8504,
+            "vwap": 36.4761,
+            "trades": 109
+          },
+          {
+            "timestamp": 1780415220000,
+            "open": 36.48,
+            "high": 36.525,
+            "low": 36.465,
+            "close": 36.51,
+            "volume": 15446,
+            "vwap": 36.4954,
+            "trades": 211
+          },
+          {
+            "timestamp": 1780415280000,
+            "open": 36.505,
+            "high": 36.55,
+            "low": 36.5,
+            "close": 36.541,
+            "volume": 10148.08734,
+            "vwap": 36.5215,
+            "trades": 146
+          },
+          {
+            "timestamp": 1780415340000,
+            "open": 36.555,
+            "high": 36.59,
+            "low": 36.55,
+            "close": 36.59,
+            "volume": 5962.27352,
+            "vwap": 36.5693,
+            "trades": 114
+          },
+          {
+            "timestamp": 1780415400000,
+            "open": 36.59,
+            "high": 36.61,
+            "low": 36.57,
+            "close": 36.575,
+            "volume": 5022,
+            "vwap": 36.5863,
+            "trades": 104
+          },
+          {
+            "timestamp": 1780415460000,
+            "open": 36.57,
+            "high": 36.57,
+            "low": 36.55,
+            "close": 36.555,
+            "volume": 11127.561357,
+            "vwap": 36.5599,
+            "trades": 140
+          },
+          {
+            "timestamp": 1780415520000,
+            "open": 36.56,
+            "high": 36.575,
+            "low": 36.55,
+            "close": 36.555,
+            "volume": 16563.30853,
+            "vwap": 36.5617,
+            "trades": 201
+          },
+          {
+            "timestamp": 1780415580000,
+            "open": 36.555,
+            "high": 36.555,
+            "low": 36.51,
+            "close": 36.54,
+            "volume": 6915.16425,
+            "vwap": 36.5325,
+            "trades": 134
+          },
+          {
+            "timestamp": 1780415640000,
+            "open": 36.55,
+            "high": 36.57,
+            "low": 36.55,
+            "close": 36.565,
+            "volume": 4202.57438,
+            "vwap": 36.56,
+            "trades": 50
+          },
+          {
+            "timestamp": 1780415700000,
+            "open": 36.565,
+            "high": 36.58,
+            "low": 36.56,
+            "close": 36.57,
+            "volume": 6047,
+            "vwap": 36.5716,
+            "trades": 105
+          },
+          {
+            "timestamp": 1780415760000,
+            "open": 36.58,
+            "high": 36.59,
+            "low": 36.58,
+            "close": 36.59,
+            "volume": 1169,
+            "vwap": 36.5827,
+            "trades": 38
+          },
+          {
+            "timestamp": 1780415820000,
+            "open": 36.58,
+            "high": 36.61,
+            "low": 36.58,
+            "close": 36.61,
+            "volume": 4166,
+            "vwap": 36.5901,
+            "trades": 67
+          },
+          {
+            "timestamp": 1780415880000,
+            "open": 36.6,
+            "high": 36.6,
+            "low": 36.545,
+            "close": 36.545,
+            "volume": 4614,
+            "vwap": 36.5796,
+            "trades": 102
+          },
+          {
+            "timestamp": 1780415940000,
+            "open": 36.545,
+            "high": 36.555,
+            "low": 36.54,
+            "close": 36.555,
+            "volume": 7914.528,
+            "vwap": 36.5512,
+            "trades": 65
+          },
+          {
+            "timestamp": 1780416000000,
+            "open": 36.555,
+            "high": 36.565,
+            "low": 36.545,
+            "close": 36.56,
+            "volume": 8791,
+            "vwap": 36.5543,
+            "trades": 91
+          },
+          {
+            "timestamp": 1780416060000,
+            "open": 36.57,
+            "high": 36.58,
+            "low": 36.555,
+            "close": 36.56,
+            "volume": 3612.079864,
+            "vwap": 36.568,
+            "trades": 69
+          },
+          {
+            "timestamp": 1780416120000,
+            "open": 36.55,
+            "high": 36.58,
+            "low": 36.545,
+            "close": 36.58,
+            "volume": 6430,
+            "vwap": 36.558,
+            "trades": 80
+          },
+          {
+            "timestamp": 1780416180000,
+            "open": 36.58,
+            "high": 36.595,
+            "low": 36.58,
+            "close": 36.59,
+            "volume": 5429,
+            "vwap": 36.5875,
+            "trades": 61
+          },
+          {
+            "timestamp": 1780416240000,
+            "open": 36.6,
+            "high": 36.605,
+            "low": 36.6,
+            "close": 36.6,
+            "volume": 6209,
+            "vwap": 36.5986,
+            "trades": 71
+          },
+          {
+            "timestamp": 1780416300000,
+            "open": 36.61,
+            "high": 36.61,
+            "low": 36.59,
+            "close": 36.59,
+            "volume": 12162,
+            "vwap": 36.5975,
+            "trades": 158
+          },
+          {
+            "timestamp": 1780416360000,
+            "open": 36.585,
+            "high": 36.595,
+            "low": 36.56,
+            "close": 36.56,
+            "volume": 6992,
+            "vwap": 36.5845,
+            "trades": 127
+          },
+          {
+            "timestamp": 1780416420000,
+            "open": 36.56,
+            "high": 36.565,
+            "low": 36.5,
+            "close": 36.51,
+            "volume": 12390,
+            "vwap": 36.527,
+            "trades": 200
+          },
+          {
+            "timestamp": 1780416480000,
+            "open": 36.51,
+            "high": 36.53,
+            "low": 36.51,
+            "close": 36.53,
+            "volume": 4998,
+            "vwap": 36.5257,
+            "trades": 77
+          },
+          {
+            "timestamp": 1780416540000,
+            "open": 36.53,
+            "high": 36.5599,
+            "low": 36.53,
+            "close": 36.5599,
+            "volume": 5643,
+            "vwap": 36.5388,
+            "trades": 58
+          },
+          {
+            "timestamp": 1780416600000,
+            "open": 36.56,
+            "high": 36.56,
+            "low": 36.53,
+            "close": 36.545,
+            "volume": 6755,
+            "vwap": 36.5445,
+            "trades": 106
+          },
+          {
+            "timestamp": 1780416660000,
+            "open": 36.545,
+            "high": 36.565,
+            "low": 36.53,
+            "close": 36.53,
+            "volume": 5326,
+            "vwap": 36.5523,
+            "trades": 98
+          },
+          {
+            "timestamp": 1780416720000,
+            "open": 36.53,
+            "high": 36.535,
+            "low": 36.525,
+            "close": 36.535,
+            "volume": 3427,
+            "vwap": 36.5313,
+            "trades": 83
+          },
+          {
+            "timestamp": 1780416780000,
+            "open": 36.535,
+            "high": 36.535,
+            "low": 36.52,
+            "close": 36.52,
+            "volume": 6222,
+            "vwap": 36.531,
+            "trades": 103
+          },
+          {
+            "timestamp": 1780416840000,
+            "open": 36.519,
+            "high": 36.535,
+            "low": 36.519,
+            "close": 36.535,
+            "volume": 7417.13832,
+            "vwap": 36.5309,
+            "trades": 81
+          },
+          {
+            "timestamp": 1780416900000,
+            "open": 36.54,
+            "high": 36.545,
+            "low": 36.53,
+            "close": 36.53,
+            "volume": 4987,
+            "vwap": 36.5409,
+            "trades": 104
+          },
+          {
+            "timestamp": 1780416960000,
+            "open": 36.54,
+            "high": 36.54,
+            "low": 36.52,
+            "close": 36.52,
+            "volume": 6657.045705,
+            "vwap": 36.5367,
+            "trades": 91
+          },
+          {
+            "timestamp": 1780417020000,
+            "open": 36.5,
+            "high": 36.51,
+            "low": 36.47,
+            "close": 36.47,
+            "volume": 2254.8176,
+            "vwap": 36.491,
+            "trades": 55
+          },
+          {
+            "timestamp": 1780417080000,
+            "open": 36.47,
+            "high": 36.5,
+            "low": 36.47,
+            "close": 36.495,
+            "volume": 6464,
+            "vwap": 36.4856,
+            "trades": 91
+          },
+          {
+            "timestamp": 1780417140000,
+            "open": 36.49,
+            "high": 36.49,
+            "low": 36.47,
+            "close": 36.485,
+            "volume": 4165,
+            "vwap": 36.4855,
+            "trades": 86
+          },
+          {
+            "timestamp": 1780417200000,
+            "open": 36.485,
+            "high": 36.485,
+            "low": 36.47,
+            "close": 36.48,
+            "volume": 4723,
+            "vwap": 36.4814,
+            "trades": 75
+          },
+          {
+            "timestamp": 1780417260000,
+            "open": 36.475,
+            "high": 36.475,
+            "low": 36.45,
+            "close": 36.46,
+            "volume": 5856,
+            "vwap": 36.4658,
+            "trades": 102
+          },
+          {
+            "timestamp": 1780417320000,
+            "open": 36.47,
+            "high": 36.47,
+            "low": 36.455,
+            "close": 36.455,
+            "volume": 8509,
+            "vwap": 36.4657,
+            "trades": 134
+          },
+          {
+            "timestamp": 1780417380000,
+            "open": 36.45,
+            "high": 36.45,
+            "low": 36.42,
+            "close": 36.425,
+            "volume": 3031,
+            "vwap": 36.4437,
+            "trades": 65
+          },
+          {
+            "timestamp": 1780417440000,
+            "open": 36.425,
+            "high": 36.445,
+            "low": 36.42,
+            "close": 36.445,
+            "volume": 5855,
+            "vwap": 36.4343,
+            "trades": 70
+          },
+          {
+            "timestamp": 1780417500000,
+            "open": 36.45,
+            "high": 36.5,
+            "low": 36.45,
+            "close": 36.5,
+            "volume": 8100,
+            "vwap": 36.4668,
+            "trades": 140
+          },
+          {
+            "timestamp": 1780417560000,
+            "open": 36.51,
+            "high": 36.53,
+            "low": 36.5,
+            "close": 36.5,
+            "volume": 5303,
+            "vwap": 36.5127,
+            "trades": 96
+          },
+          {
+            "timestamp": 1780417620000,
+            "open": 36.505,
+            "high": 36.505,
+            "low": 36.48,
+            "close": 36.485,
+            "volume": 3665,
+            "vwap": 36.4925,
+            "trades": 58
+          },
+          {
+            "timestamp": 1780417680000,
+            "open": 36.48,
+            "high": 36.485,
+            "low": 36.475,
+            "close": 36.475,
+            "volume": 3974,
+            "vwap": 36.4806,
+            "trades": 70
+          },
+          {
+            "timestamp": 1780417740000,
+            "open": 36.47,
+            "high": 36.485,
+            "low": 36.47,
+            "close": 36.48,
+            "volume": 6512,
+            "vwap": 36.48,
+            "trades": 82
+          },
+          {
+            "timestamp": 1780417800000,
+            "open": 36.485,
+            "high": 36.485,
+            "low": 36.48,
+            "close": 36.485,
+            "volume": 3029,
+            "vwap": 36.4809,
+            "trades": 44
+          },
+          {
+            "timestamp": 1780417860000,
+            "open": 36.485,
+            "high": 36.485,
+            "low": 36.485,
+            "close": 36.485,
+            "volume": 873.028507,
+            "vwap": 36.4823,
+            "trades": 19
+          },
+          {
+            "timestamp": 1780417920000,
+            "open": 36.4864,
+            "high": 36.51,
+            "low": 36.485,
+            "close": 36.51,
+            "volume": 5331,
+            "vwap": 36.4916,
+            "trades": 68
+          },
+          {
+            "timestamp": 1780417980000,
+            "open": 36.51,
+            "high": 36.52,
+            "low": 36.51,
+            "close": 36.515,
+            "volume": 4518,
+            "vwap": 36.511,
+            "trades": 44
+          },
+          {
+            "timestamp": 1780418040000,
+            "open": 36.52,
+            "high": 36.535,
+            "low": 36.52,
+            "close": 36.52,
+            "volume": 7711,
+            "vwap": 36.525,
+            "trades": 121
+          },
+          {
+            "timestamp": 1780418100000,
+            "open": 36.515,
+            "high": 36.515,
+            "low": 36.48,
+            "close": 36.48,
+            "volume": 5897,
+            "vwap": 36.4991,
+            "trades": 84
+          },
+          {
+            "timestamp": 1780418160000,
+            "open": 36.475,
+            "high": 36.49,
+            "low": 36.475,
+            "close": 36.485,
+            "volume": 6386,
+            "vwap": 36.4833,
+            "trades": 78
+          },
+          {
+            "timestamp": 1780418220000,
+            "open": 36.485,
+            "high": 36.525,
+            "low": 36.485,
+            "close": 36.51,
+            "volume": 6870,
+            "vwap": 36.5044,
+            "trades": 93
+          },
+          {
+            "timestamp": 1780418280000,
+            "open": 36.51,
+            "high": 36.51,
+            "low": 36.505,
+            "close": 36.505,
+            "volume": 1574.0976,
+            "vwap": 36.5031,
+            "trades": 26
+          },
+          {
+            "timestamp": 1780418340000,
+            "open": 36.5,
+            "high": 36.5,
+            "low": 36.49,
+            "close": 36.49,
+            "volume": 2574,
+            "vwap": 36.4977,
+            "trades": 51
+          },
+          {
+            "timestamp": 1780418400000,
+            "open": 36.495,
+            "high": 36.505,
+            "low": 36.49,
+            "close": 36.505,
+            "volume": 4363,
+            "vwap": 36.5002,
+            "trades": 61
+          },
+          {
+            "timestamp": 1780418460000,
+            "open": 36.505,
+            "high": 36.505,
+            "low": 36.48,
+            "close": 36.49,
+            "volume": 4724,
+            "vwap": 36.4969,
+            "trades": 63
+          },
+          {
+            "timestamp": 1780418520000,
+            "open": 36.495,
+            "high": 36.52,
+            "low": 36.495,
+            "close": 36.515,
+            "volume": 6018,
+            "vwap": 36.5047,
+            "trades": 83
+          },
+          {
+            "timestamp": 1780418580000,
+            "open": 36.52,
+            "high": 36.55,
+            "low": 36.52,
+            "close": 36.545,
+            "volume": 11617,
+            "vwap": 36.5358,
+            "trades": 172
+          },
+          {
+            "timestamp": 1780418640000,
+            "open": 36.545,
+            "high": 36.56,
+            "low": 36.545,
+            "close": 36.56,
+            "volume": 2028,
+            "vwap": 36.5516,
+            "trades": 35
+          },
+          {
+            "timestamp": 1780418700000,
+            "open": 36.555,
+            "high": 36.565,
+            "low": 36.54,
+            "close": 36.56,
+            "volume": 11419,
+            "vwap": 36.55,
+            "trades": 129
+          },
+          {
+            "timestamp": 1780418760000,
+            "open": 36.56,
+            "high": 36.595,
+            "low": 36.56,
+            "close": 36.57,
+            "volume": 10247.077612,
+            "vwap": 36.5801,
+            "trades": 114
+          },
+          {
+            "timestamp": 1780418820000,
+            "open": 36.57,
+            "high": 36.57,
+            "low": 36.55,
+            "close": 36.555,
+            "volume": 6666,
+            "vwap": 36.5569,
+            "trades": 103
+          },
+          {
+            "timestamp": 1780418880000,
+            "open": 36.555,
+            "high": 36.555,
+            "low": 36.525,
+            "close": 36.525,
+            "volume": 2299,
+            "vwap": 36.5433,
+            "trades": 58
+          },
+          {
+            "timestamp": 1780418940000,
+            "open": 36.525,
+            "high": 36.555,
+            "low": 36.515,
+            "close": 36.535,
+            "volume": 9981,
+            "vwap": 36.5355,
+            "trades": 143
+          },
+          {
+            "timestamp": 1780419000000,
+            "open": 36.54,
+            "high": 36.55,
+            "low": 36.535,
+            "close": 36.535,
+            "volume": 3853.25,
+            "vwap": 36.5435,
+            "trades": 69
+          },
+          {
+            "timestamp": 1780419060000,
+            "open": 36.54,
+            "high": 36.54,
+            "low": 36.52,
+            "close": 36.52,
+            "volume": 2349,
+            "vwap": 36.5318,
+            "trades": 40
+          },
+          {
+            "timestamp": 1780419120000,
+            "open": 36.52,
+            "high": 36.545,
+            "low": 36.51,
+            "close": 36.53,
+            "volume": 8245,
+            "vwap": 36.5307,
+            "trades": 111
+          },
+          {
+            "timestamp": 1780419180000,
+            "open": 36.525,
+            "high": 36.54,
+            "low": 36.525,
+            "close": 36.535,
+            "volume": 6295,
+            "vwap": 36.5321,
+            "trades": 74
+          },
+          {
+            "timestamp": 1780419240000,
+            "open": 36.545,
+            "high": 36.555,
+            "low": 36.54,
+            "close": 36.55,
+            "volume": 4938,
+            "vwap": 36.5439,
+            "trades": 80
+          },
+          {
+            "timestamp": 1780419300000,
+            "open": 36.55,
+            "high": 36.56,
+            "low": 36.52,
+            "close": 36.53,
+            "volume": 3655,
+            "vwap": 36.5464,
+            "trades": 65
+          },
+          {
+            "timestamp": 1780419360000,
+            "open": 36.53,
+            "high": 36.53,
+            "low": 36.52,
+            "close": 36.525,
+            "volume": 3459,
+            "vwap": 36.5293,
+            "trades": 63
+          },
+          {
+            "timestamp": 1780419420000,
+            "open": 36.53,
+            "high": 36.53,
+            "low": 36.5,
+            "close": 36.51,
+            "volume": 7138,
+            "vwap": 36.5168,
+            "trades": 94
+          },
+          {
+            "timestamp": 1780419480000,
+            "open": 36.51,
+            "high": 36.545,
+            "low": 36.51,
+            "close": 36.54,
+            "volume": 8954.5262,
+            "vwap": 36.5295,
+            "trades": 108
+          },
+          {
+            "timestamp": 1780419540000,
+            "open": 36.54,
+            "high": 36.57,
+            "low": 36.535,
+            "close": 36.57,
+            "volume": 7027,
+            "vwap": 36.5528,
+            "trades": 112
+          },
+          {
+            "timestamp": 1780419600000,
+            "open": 36.565,
+            "high": 36.575,
+            "low": 36.54,
+            "close": 36.54,
+            "volume": 4016,
+            "vwap": 36.5627,
+            "trades": 100
+          },
+          {
+            "timestamp": 1780419660000,
+            "open": 36.54,
+            "high": 36.54,
+            "low": 36.525,
+            "close": 36.525,
+            "volume": 5570,
+            "vwap": 36.5378,
+            "trades": 58
+          },
+          {
+            "timestamp": 1780419720000,
+            "open": 36.52,
+            "high": 36.52,
+            "low": 36.505,
+            "close": 36.515,
+            "volume": 5130,
+            "vwap": 36.5133,
+            "trades": 65
+          },
+          {
+            "timestamp": 1780419780000,
+            "open": 36.52,
+            "high": 36.52,
+            "low": 36.51,
+            "close": 36.51,
+            "volume": 4065,
+            "vwap": 36.5201,
+            "trades": 58
+          },
+          {
+            "timestamp": 1780419840000,
+            "open": 36.52,
+            "high": 36.55,
+            "low": 36.52,
+            "close": 36.55,
+            "volume": 7662.2736,
+            "vwap": 36.5348,
+            "trades": 143
+          },
+          {
+            "timestamp": 1780419900000,
+            "open": 36.545,
+            "high": 36.555,
+            "low": 36.545,
+            "close": 36.555,
+            "volume": 2355,
+            "vwap": 36.5434,
+            "trades": 32
+          },
+          {
+            "timestamp": 1780419960000,
+            "open": 36.56,
+            "high": 36.575,
+            "low": 36.56,
+            "close": 36.575,
+            "volume": 4584,
+            "vwap": 36.5654,
+            "trades": 59
+          },
+          {
+            "timestamp": 1780420020000,
+            "open": 36.575,
+            "high": 36.575,
+            "low": 36.56,
+            "close": 36.56,
+            "volume": 5215,
+            "vwap": 36.5676,
+            "trades": 71
+          },
+          {
+            "timestamp": 1780420080000,
+            "open": 36.555,
+            "high": 36.555,
+            "low": 36.535,
+            "close": 36.535,
+            "volume": 4444,
+            "vwap": 36.5483,
+            "trades": 88
+          },
+          {
+            "timestamp": 1780420140000,
+            "open": 36.545,
+            "high": 36.555,
+            "low": 36.545,
+            "close": 36.555,
+            "volume": 3212,
+            "vwap": 36.5507,
+            "trades": 38
+          },
+          {
+            "timestamp": 1780420200000,
+            "open": 36.555,
+            "high": 36.595,
+            "low": 36.555,
+            "close": 36.595,
+            "volume": 6831,
+            "vwap": 36.5644,
+            "trades": 90
+          },
+          {
+            "timestamp": 1780420260000,
+            "open": 36.59,
+            "high": 36.6,
+            "low": 36.58,
+            "close": 36.58,
+            "volume": 10236,
+            "vwap": 36.5913,
+            "trades": 71
+          },
+          {
+            "timestamp": 1780420320000,
+            "open": 36.585,
+            "high": 36.59,
+            "low": 36.58,
+            "close": 36.58,
+            "volume": 2342,
+            "vwap": 36.5823,
+            "trades": 43
+          },
+          {
+            "timestamp": 1780420380000,
+            "open": 36.59,
+            "high": 36.61,
+            "low": 36.59,
+            "close": 36.605,
+            "volume": 5045,
+            "vwap": 36.5946,
+            "trades": 79
+          },
+          {
+            "timestamp": 1780420440000,
+            "open": 36.605,
+            "high": 36.61,
+            "low": 36.6,
+            "close": 36.6,
+            "volume": 2979,
+            "vwap": 36.5978,
+            "trades": 48
+          },
+          {
+            "timestamp": 1780420500000,
+            "open": 36.605,
+            "high": 36.61,
+            "low": 36.59,
+            "close": 36.595,
+            "volume": 6359.42427,
+            "vwap": 36.6023,
+            "trades": 88
+          },
+          {
+            "timestamp": 1780420560000,
+            "open": 36.59,
+            "high": 36.67,
+            "low": 36.59,
+            "close": 36.64,
+            "volume": 14182,
+            "vwap": 36.6346,
+            "trades": 229
+          },
+          {
+            "timestamp": 1780420620000,
+            "open": 36.63,
+            "high": 36.63,
+            "low": 36.615,
+            "close": 36.625,
+            "volume": 3811,
+            "vwap": 36.6266,
+            "trades": 59
+          },
+          {
+            "timestamp": 1780420680000,
+            "open": 36.625,
+            "high": 36.625,
+            "low": 36.62,
+            "close": 36.625,
+            "volume": 1749,
+            "vwap": 36.6229,
+            "trades": 31
+          },
+          {
+            "timestamp": 1780420740000,
+            "open": 36.625,
+            "high": 36.67,
+            "low": 36.625,
+            "close": 36.665,
+            "volume": 15811.15826,
+            "vwap": 36.6402,
+            "trades": 176
+          },
+          {
+            "timestamp": 1780420800000,
+            "open": 36.65,
+            "high": 36.65,
+            "low": 36.62,
+            "close": 36.621,
+            "volume": 3868,
+            "vwap": 36.636,
+            "trades": 77
+          },
+          {
+            "timestamp": 1780420860000,
+            "open": 36.63,
+            "high": 36.63,
+            "low": 36.62,
+            "close": 36.63,
+            "volume": 1775,
+            "vwap": 36.6295,
+            "trades": 45
+          },
+          {
+            "timestamp": 1780420920000,
+            "open": 36.63,
+            "high": 36.64,
+            "low": 36.63,
+            "close": 36.64,
+            "volume": 5890,
+            "vwap": 36.6383,
+            "trades": 69
+          },
+          {
+            "timestamp": 1780420980000,
+            "open": 36.635,
+            "high": 36.635,
+            "low": 36.63,
+            "close": 36.63,
+            "volume": 1636.09644,
+            "vwap": 36.6334,
+            "trades": 26
+          },
+          {
+            "timestamp": 1780421040000,
+            "open": 36.63,
+            "high": 36.63,
+            "low": 36.62,
+            "close": 36.62,
+            "volume": 4903,
+            "vwap": 36.6261,
+            "trades": 79
+          },
+          {
+            "timestamp": 1780421100000,
+            "open": 36.61,
+            "high": 36.63,
+            "low": 36.61,
+            "close": 36.625,
+            "volume": 4862,
+            "vwap": 36.6219,
+            "trades": 90
+          },
+          {
+            "timestamp": 1780421160000,
+            "open": 36.63,
+            "high": 36.665,
+            "low": 36.63,
+            "close": 36.665,
+            "volume": 4592,
+            "vwap": 36.6445,
+            "trades": 75
+          },
+          {
+            "timestamp": 1780421220000,
+            "open": 36.66,
+            "high": 36.665,
+            "low": 36.66,
+            "close": 36.6625,
+            "volume": 4024,
+            "vwap": 36.6596,
+            "trades": 62
+          },
+          {
+            "timestamp": 1780421280000,
+            "open": 36.6625,
+            "high": 36.68,
+            "low": 36.65,
+            "close": 36.65,
+            "volume": 25422,
+            "vwap": 36.6683,
+            "trades": 292
+          },
+          {
+            "timestamp": 1780421340000,
+            "open": 36.65,
+            "high": 36.65,
+            "low": 36.63,
+            "close": 36.63,
+            "volume": 2849,
+            "vwap": 36.6413,
+            "trades": 35
+          },
+          {
+            "timestamp": 1780421400000,
+            "open": 36.63,
+            "high": 36.64,
+            "low": 36.63,
+            "close": 36.63,
+            "volume": 2974,
+            "vwap": 36.634,
+            "trades": 55
+          },
+          {
+            "timestamp": 1780421460000,
+            "open": 36.63,
+            "high": 36.64,
+            "low": 36.62,
+            "close": 36.62,
+            "volume": 3883.08053,
+            "vwap": 36.6331,
+            "trades": 66
+          },
+          {
+            "timestamp": 1780421520000,
+            "open": 36.605,
+            "high": 36.61,
+            "low": 36.605,
+            "close": 36.61,
+            "volume": 3309,
+            "vwap": 36.611,
+            "trades": 47
+          },
+          {
+            "timestamp": 1780421580000,
+            "open": 36.615,
+            "high": 36.62,
+            "low": 36.58,
+            "close": 36.585,
+            "volume": 6554.7863,
+            "vwap": 36.606,
+            "trades": 120
+          },
+          {
+            "timestamp": 1780421640000,
+            "open": 36.58,
+            "high": 36.585,
+            "low": 36.56,
+            "close": 36.56,
+            "volume": 3917,
+            "vwap": 36.5833,
+            "trades": 77
+          },
+          {
+            "timestamp": 1780421700000,
+            "open": 36.56,
+            "high": 36.575,
+            "low": 36.56,
+            "close": 36.565,
+            "volume": 3879,
+            "vwap": 36.5676,
+            "trades": 61
+          },
+          {
+            "timestamp": 1780421760000,
+            "open": 36.56,
+            "high": 36.57,
+            "low": 36.55,
+            "close": 36.57,
+            "volume": 6838.212966,
+            "vwap": 36.5625,
+            "trades": 65
+          },
+          {
+            "timestamp": 1780421820000,
+            "open": 36.57,
+            "high": 36.575,
+            "low": 36.57,
+            "close": 36.57,
+            "volume": 5788,
+            "vwap": 36.5702,
+            "trades": 80
+          },
+          {
+            "timestamp": 1780421880000,
+            "open": 36.5678,
+            "high": 36.57,
+            "low": 36.565,
+            "close": 36.57,
+            "volume": 1233,
+            "vwap": 36.58,
+            "trades": 22
+          },
+          {
+            "timestamp": 1780421940000,
+            "open": 36.56,
+            "high": 36.57,
+            "low": 36.55,
+            "close": 36.565,
+            "volume": 9754.2179,
+            "vwap": 36.5593,
+            "trades": 83
+          },
+          {
+            "timestamp": 1780422000000,
+            "open": 36.565,
+            "high": 36.565,
+            "low": 36.56,
+            "close": 36.56,
+            "volume": 1945,
+            "vwap": 36.5732,
+            "trades": 30
+          },
+          {
+            "timestamp": 1780422060000,
+            "open": 36.56,
+            "high": 36.585,
+            "low": 36.56,
+            "close": 36.565,
+            "volume": 10648,
+            "vwap": 36.569,
+            "trades": 133
+          },
+          {
+            "timestamp": 1780422120000,
+            "open": 36.56,
+            "high": 36.56,
+            "low": 36.545,
+            "close": 36.545,
+            "volume": 1917.050708,
+            "vwap": 36.5535,
+            "trades": 41
+          },
+          {
+            "timestamp": 1780422180000,
+            "open": 36.545,
+            "high": 36.545,
+            "low": 36.5,
+            "close": 36.5,
+            "volume": 13336.05479,
+            "vwap": 36.5181,
+            "trades": 157
+          },
+          {
+            "timestamp": 1780422240000,
+            "open": 36.495,
+            "high": 36.495,
+            "low": 36.48,
+            "close": 36.485,
+            "volume": 3265,
+            "vwap": 36.4926,
+            "trades": 52
+          },
+          {
+            "timestamp": 1780422300000,
+            "open": 36.485,
+            "high": 36.505,
+            "low": 36.485,
+            "close": 36.495,
+            "volume": 5300,
+            "vwap": 36.4936,
+            "trades": 69
+          },
+          {
+            "timestamp": 1780422360000,
+            "open": 36.495,
+            "high": 36.495,
+            "low": 36.48,
+            "close": 36.485,
+            "volume": 3958.053701,
+            "vwap": 36.4917,
+            "trades": 48
+          },
+          {
+            "timestamp": 1780422420000,
+            "open": 36.485,
+            "high": 36.495,
+            "low": 36.485,
+            "close": 36.485,
+            "volume": 4630.451,
+            "vwap": 36.4906,
+            "trades": 71
+          },
+          {
+            "timestamp": 1780422480000,
+            "open": 36.485,
+            "high": 36.485,
+            "low": 36.475,
+            "close": 36.475,
+            "volume": 5739,
+            "vwap": 36.481,
+            "trades": 54
+          },
+          {
+            "timestamp": 1780422540000,
+            "open": 36.47,
+            "high": 36.48,
+            "low": 36.46,
+            "close": 36.46,
+            "volume": 4583,
+            "vwap": 36.4703,
+            "trades": 51
+          },
+          {
+            "timestamp": 1780422600000,
+            "open": 36.46,
+            "high": 36.465,
+            "low": 36.45,
+            "close": 36.45,
+            "volume": 4283,
+            "vwap": 36.4723,
+            "trades": 53
+          },
+          {
+            "timestamp": 1780422660000,
+            "open": 36.455,
+            "high": 36.455,
+            "low": 36.42,
+            "close": 36.435,
+            "volume": 14200.027434,
+            "vwap": 36.4321,
+            "trades": 145
+          },
+          {
+            "timestamp": 1780422720000,
+            "open": 36.435,
+            "high": 36.435,
+            "low": 36.425,
+            "close": 36.4285,
+            "volume": 5423,
+            "vwap": 36.4302,
+            "trades": 57
+          },
+          {
+            "timestamp": 1780422780000,
+            "open": 36.425,
+            "high": 36.435,
+            "low": 36.42,
+            "close": 36.42,
+            "volume": 8787,
+            "vwap": 36.4286,
+            "trades": 112
+          },
+          {
+            "timestamp": 1780422840000,
+            "open": 36.415,
+            "high": 36.425,
+            "low": 36.415,
+            "close": 36.425,
+            "volume": 8276,
+            "vwap": 36.4213,
+            "trades": 59
+          },
+          {
+            "timestamp": 1780422900000,
+            "open": 36.43,
+            "high": 36.45,
+            "low": 36.43,
+            "close": 36.43,
+            "volume": 19809.807,
+            "vwap": 36.438,
+            "trades": 258
+          },
+          {
+            "timestamp": 1780422960000,
+            "open": 36.43,
+            "high": 36.445,
+            "low": 36.425,
+            "close": 36.435,
+            "volume": 7875,
+            "vwap": 36.4342,
+            "trades": 110
+          },
+          {
+            "timestamp": 1780423020000,
+            "open": 36.43,
+            "high": 36.435,
+            "low": 36.415,
+            "close": 36.415,
+            "volume": 10939.26893,
+            "vwap": 36.4281,
+            "trades": 80
+          },
+          {
+            "timestamp": 1780423080000,
+            "open": 36.41,
+            "high": 36.415,
+            "low": 36.38,
+            "close": 36.385,
+            "volume": 6469,
+            "vwap": 36.3943,
+            "trades": 97
+          },
+          {
+            "timestamp": 1780423140000,
+            "open": 36.38,
+            "high": 36.4,
+            "low": 36.38,
+            "close": 36.385,
+            "volume": 11696.82402,
+            "vwap": 36.3918,
+            "trades": 118
+          },
+          {
+            "timestamp": 1780423200000,
+            "open": 36.39,
+            "high": 36.405,
+            "low": 36.39,
+            "close": 36.405,
+            "volume": 7745,
+            "vwap": 36.4002,
+            "trades": 95
+          },
+          {
+            "timestamp": 1780423260000,
+            "open": 36.405,
+            "high": 36.41,
+            "low": 36.39,
+            "close": 36.39,
+            "volume": 5057.053559,
+            "vwap": 36.4025,
+            "trades": 79
+          },
+          {
+            "timestamp": 1780423320000,
+            "open": 36.4,
+            "high": 36.405,
+            "low": 36.39,
+            "close": 36.39,
+            "volume": 10211,
+            "vwap": 36.3991,
+            "trades": 105
+          },
+          {
+            "timestamp": 1780423380000,
+            "open": 36.385,
+            "high": 36.3999,
+            "low": 36.36,
+            "close": 36.385,
+            "volume": 13447.660088,
+            "vwap": 36.38,
+            "trades": 205
+          },
+          {
+            "timestamp": 1780423440000,
+            "open": 36.4,
+            "high": 36.42,
+            "low": 36.4,
+            "close": 36.4,
+            "volume": 7615.47113,
+            "vwap": 36.403,
+            "trades": 129
+          },
+          {
+            "timestamp": 1780423500000,
+            "open": 36.395,
+            "high": 36.41,
+            "low": 36.39,
+            "close": 36.39,
+            "volume": 5603,
+            "vwap": 36.3994,
+            "trades": 81
+          },
+          {
+            "timestamp": 1780423560000,
+            "open": 36.38,
+            "high": 36.385,
+            "low": 36.37,
+            "close": 36.38,
+            "volume": 8846.64906,
+            "vwap": 36.3795,
+            "trades": 93
+          },
+          {
+            "timestamp": 1780423620000,
+            "open": 36.38,
+            "high": 36.38,
+            "low": 36.365,
+            "close": 36.365,
+            "volume": 4226,
+            "vwap": 36.3767,
+            "trades": 70
+          },
+          {
+            "timestamp": 1780423680000,
+            "open": 36.37,
+            "high": 36.375,
+            "low": 36.37,
+            "close": 36.375,
+            "volume": 3921,
+            "vwap": 36.3729,
+            "trades": 60
+          },
+          {
+            "timestamp": 1780423740000,
+            "open": 36.375,
+            "high": 36.38,
+            "low": 36.37,
+            "close": 36.37,
+            "volume": 3508,
+            "vwap": 36.3762,
+            "trades": 66
+          },
+          {
+            "timestamp": 1780423800000,
+            "open": 36.37,
+            "high": 36.375,
+            "low": 36.36,
+            "close": 36.36,
+            "volume": 7450,
+            "vwap": 36.3693,
+            "trades": 90
+          },
+          {
+            "timestamp": 1780423860000,
+            "open": 36.36,
+            "high": 36.37,
+            "low": 36.35,
+            "close": 36.35,
+            "volume": 4571,
+            "vwap": 36.3607,
+            "trades": 91
+          },
+          {
+            "timestamp": 1780423920000,
+            "open": 36.355,
+            "high": 36.36,
+            "low": 36.355,
+            "close": 36.355,
+            "volume": 5551,
+            "vwap": 36.3588,
+            "trades": 63
+          },
+          {
+            "timestamp": 1780423980000,
+            "open": 36.355,
+            "high": 36.365,
+            "low": 36.35,
+            "close": 36.365,
+            "volume": 7726,
+            "vwap": 36.358,
+            "trades": 83
+          },
+          {
+            "timestamp": 1780424040000,
+            "open": 36.37,
+            "high": 36.37,
+            "low": 36.36,
+            "close": 36.365,
+            "volume": 5620,
+            "vwap": 36.3689,
+            "trades": 68
+          },
+          {
+            "timestamp": 1780424100000,
+            "open": 36.37,
+            "high": 36.395,
+            "low": 36.37,
+            "close": 36.385,
+            "volume": 8302.74824,
+            "vwap": 36.3817,
+            "trades": 107
+          },
+          {
+            "timestamp": 1780424160000,
+            "open": 36.39,
+            "high": 36.395,
+            "low": 36.385,
+            "close": 36.385,
+            "volume": 3845,
+            "vwap": 36.3912,
+            "trades": 64
+          },
+          {
+            "timestamp": 1780424220000,
+            "open": 36.38,
+            "high": 36.385,
+            "low": 36.35,
+            "close": 36.355,
+            "volume": 5364,
+            "vwap": 36.3663,
+            "trades": 83
+          },
+          {
+            "timestamp": 1780424280000,
+            "open": 36.36,
+            "high": 36.365,
+            "low": 36.36,
+            "close": 36.365,
+            "volume": 3654,
+            "vwap": 36.3632,
+            "trades": 33
+          },
+          {
+            "timestamp": 1780424340000,
+            "open": 36.365,
+            "high": 36.375,
+            "low": 36.36,
+            "close": 36.375,
+            "volume": 6716,
+            "vwap": 36.37,
+            "trades": 83
+          },
+          {
+            "timestamp": 1780424400000,
+            "open": 36.375,
+            "high": 36.38,
+            "low": 36.365,
+            "close": 36.375,
+            "volume": 3144.537,
+            "vwap": 36.3718,
+            "trades": 65
+          },
+          {
+            "timestamp": 1780424460000,
+            "open": 36.375,
+            "high": 36.375,
+            "low": 36.37,
+            "close": 36.375,
+            "volume": 2274,
+            "vwap": 36.3736,
+            "trades": 41
+          },
+          {
+            "timestamp": 1780424520000,
+            "open": 36.375,
+            "high": 36.385,
+            "low": 36.37,
+            "close": 36.385,
+            "volume": 8443,
+            "vwap": 36.3792,
+            "trades": 95
+          },
+          {
+            "timestamp": 1780424580000,
+            "open": 36.39,
+            "high": 36.425,
+            "low": 36.39,
+            "close": 36.425,
+            "volume": 13731.0032,
+            "vwap": 36.4087,
+            "trades": 152
+          },
+          {
+            "timestamp": 1780424640000,
+            "open": 36.425,
+            "high": 36.43,
+            "low": 36.42,
+            "close": 36.42,
+            "volume": 6534.0139,
+            "vwap": 36.4203,
+            "trades": 75
+          },
+          {
+            "timestamp": 1780424700000,
+            "open": 36.415,
+            "high": 36.42,
+            "low": 36.41,
+            "close": 36.42,
+            "volume": 4656,
+            "vwap": 36.4117,
+            "trades": 61
+          },
+          {
+            "timestamp": 1780424760000,
+            "open": 36.42,
+            "high": 36.435,
+            "low": 36.41,
+            "close": 36.435,
+            "volume": 10237.0139,
+            "vwap": 36.4229,
+            "trades": 144
+          },
+          {
+            "timestamp": 1780424820000,
+            "open": 36.435,
+            "high": 36.465,
+            "low": 36.435,
+            "close": 36.465,
+            "volume": 5123.75,
+            "vwap": 36.4535,
+            "trades": 75
+          },
+          {
+            "timestamp": 1780424880000,
+            "open": 36.46,
+            "high": 36.46,
+            "low": 36.43,
+            "close": 36.44,
+            "volume": 12678,
+            "vwap": 36.443,
+            "trades": 178
+          },
+          {
+            "timestamp": 1780424940000,
+            "open": 36.44,
+            "high": 36.455,
+            "low": 36.435,
+            "close": 36.455,
+            "volume": 5989.01509,
+            "vwap": 36.4416,
+            "trades": 77
+          },
+          {
+            "timestamp": 1780425000000,
+            "open": 36.45,
+            "high": 36.45,
+            "low": 36.41,
+            "close": 36.415,
+            "volume": 4787,
+            "vwap": 36.4343,
+            "trades": 110
+          },
+          {
+            "timestamp": 1780425060000,
+            "open": 36.415,
+            "high": 36.43,
+            "low": 36.415,
+            "close": 36.42,
+            "volume": 8198,
+            "vwap": 36.4206,
+            "trades": 103
+          },
+          {
+            "timestamp": 1780425120000,
+            "open": 36.41,
+            "high": 36.41,
+            "low": 36.385,
+            "close": 36.391,
+            "volume": 6632,
+            "vwap": 36.3956,
+            "trades": 88
+          },
+          {
+            "timestamp": 1780425180000,
+            "open": 36.395,
+            "high": 36.425,
+            "low": 36.38,
+            "close": 36.42,
+            "volume": 10564.65706,
+            "vwap": 36.4044,
+            "trades": 157
+          },
+          {
+            "timestamp": 1780425240000,
+            "open": 36.41,
+            "high": 36.435,
+            "low": 36.41,
+            "close": 36.43,
+            "volume": 15853,
+            "vwap": 36.4217,
+            "trades": 156
+          },
+          {
+            "timestamp": 1780425300000,
+            "open": 36.435,
+            "high": 36.445,
+            "low": 36.43,
+            "close": 36.44,
+            "volume": 7360,
+            "vwap": 36.4355,
+            "trades": 92
+          },
+          {
+            "timestamp": 1780425360000,
+            "open": 36.435,
+            "high": 36.445,
+            "low": 36.415,
+            "close": 36.415,
+            "volume": 6258.47718,
+            "vwap": 36.4339,
+            "trades": 91
+          },
+          {
+            "timestamp": 1780425420000,
+            "open": 36.42,
+            "high": 36.455,
+            "low": 36.42,
+            "close": 36.455,
+            "volume": 8135,
+            "vwap": 36.4355,
+            "trades": 100
+          },
+          {
+            "timestamp": 1780425480000,
+            "open": 36.455,
+            "high": 36.475,
+            "low": 36.455,
+            "close": 36.465,
+            "volume": 5676,
+            "vwap": 36.4585,
+            "trades": 78
+          },
+          {
+            "timestamp": 1780425540000,
+            "open": 36.465,
+            "high": 36.465,
+            "low": 36.46,
+            "close": 36.46,
+            "volume": 2636.85513,
+            "vwap": 36.4603,
+            "trades": 44
+          },
+          {
+            "timestamp": 1780425600000,
+            "open": 36.465,
+            "high": 36.465,
+            "low": 36.42,
+            "close": 36.425,
+            "volume": 11371,
+            "vwap": 36.4409,
+            "trades": 175
+          },
+          {
+            "timestamp": 1780425660000,
+            "open": 36.425,
+            "high": 36.4303,
+            "low": 36.415,
+            "close": 36.42,
+            "volume": 6592,
+            "vwap": 36.4225,
+            "trades": 96
+          },
+          {
+            "timestamp": 1780425720000,
+            "open": 36.42,
+            "high": 36.45,
+            "low": 36.42,
+            "close": 36.4499,
+            "volume": 4562,
+            "vwap": 36.4347,
+            "trades": 115
+          },
+          {
+            "timestamp": 1780425780000,
+            "open": 36.44,
+            "high": 36.45,
+            "low": 36.43,
+            "close": 36.435,
+            "volume": 3580.135535,
+            "vwap": 36.4413,
+            "trades": 56
+          },
+          {
+            "timestamp": 1780425840000,
+            "open": 36.44,
+            "high": 36.44,
+            "low": 36.43,
+            "close": 36.43,
+            "volume": 4553,
+            "vwap": 36.434,
+            "trades": 64
+          },
+          {
+            "timestamp": 1780425900000,
+            "open": 36.435,
+            "high": 36.44,
+            "low": 36.43,
+            "close": 36.435,
+            "volume": 6425,
+            "vwap": 36.4364,
+            "trades": 75
+          },
+          {
+            "timestamp": 1780425960000,
+            "open": 36.445,
+            "high": 36.445,
+            "low": 36.435,
+            "close": 36.44,
+            "volume": 3602,
+            "vwap": 36.4399,
+            "trades": 43
+          },
+          {
+            "timestamp": 1780426020000,
+            "open": 36.44,
+            "high": 36.44,
+            "low": 36.42,
+            "close": 36.42,
+            "volume": 4877,
+            "vwap": 36.4302,
+            "trades": 68
+          },
+          {
+            "timestamp": 1780426080000,
+            "open": 36.425,
+            "high": 36.435,
+            "low": 36.42,
+            "close": 36.43,
+            "volume": 11637,
+            "vwap": 36.4267,
+            "trades": 153
+          },
+          {
+            "timestamp": 1780426140000,
+            "open": 36.42,
+            "high": 36.42,
+            "low": 36.395,
+            "close": 36.4,
+            "volume": 4492,
+            "vwap": 36.411,
+            "trades": 75
+          },
+          {
+            "timestamp": 1780426200000,
+            "open": 36.4,
+            "high": 36.405,
+            "low": 36.4,
+            "close": 36.4,
+            "volume": 2474,
+            "vwap": 36.4062,
+            "trades": 48
+          },
+          {
+            "timestamp": 1780426260000,
+            "open": 36.4,
+            "high": 36.409,
+            "low": 36.4,
+            "close": 36.4,
+            "volume": 3390,
+            "vwap": 36.4039,
+            "trades": 42
+          },
+          {
+            "timestamp": 1780426320000,
+            "open": 36.4,
+            "high": 36.4,
+            "low": 36.38,
+            "close": 36.4,
+            "volume": 11627.236,
+            "vwap": 36.3912,
+            "trades": 152
+          },
+          {
+            "timestamp": 1780426380000,
+            "open": 36.4,
+            "high": 36.415,
+            "low": 36.385,
+            "close": 36.385,
+            "volume": 9796,
+            "vwap": 36.4012,
+            "trades": 117
+          },
+          {
+            "timestamp": 1780426440000,
+            "open": 36.39,
+            "high": 36.395,
+            "low": 36.39,
+            "close": 36.39,
+            "volume": 3024,
+            "vwap": 36.3948,
+            "trades": 58
+          },
+          {
+            "timestamp": 1780426500000,
+            "open": 36.3983,
+            "high": 36.41,
+            "low": 36.395,
+            "close": 36.405,
+            "volume": 6842.051,
+            "vwap": 36.4013,
+            "trades": 71
+          },
+          {
+            "timestamp": 1780426560000,
+            "open": 36.405,
+            "high": 36.4084,
+            "low": 36.37,
+            "close": 36.37,
+            "volume": 7805,
+            "vwap": 36.3899,
+            "trades": 153
+          },
+          {
+            "timestamp": 1780426620000,
+            "open": 36.37,
+            "high": 36.395,
+            "low": 36.37,
+            "close": 36.38,
+            "volume": 6691,
+            "vwap": 36.3881,
+            "trades": 95
+          },
+          {
+            "timestamp": 1780426680000,
+            "open": 36.385,
+            "high": 36.385,
+            "low": 36.37,
+            "close": 36.375,
+            "volume": 4317,
+            "vwap": 36.3841,
+            "trades": 69
+          },
+          {
+            "timestamp": 1780426740000,
+            "open": 36.37,
+            "high": 36.38,
+            "low": 36.37,
+            "close": 36.37,
+            "volume": 4316,
+            "vwap": 36.3751,
+            "trades": 67
+          },
+          {
+            "timestamp": 1780426800000,
+            "open": 36.37,
+            "high": 36.38,
+            "low": 36.36,
+            "close": 36.365,
+            "volume": 8709,
+            "vwap": 36.372,
+            "trades": 111
+          },
+          {
+            "timestamp": 1780426860000,
+            "open": 36.36,
+            "high": 36.37,
+            "low": 36.34,
+            "close": 36.34,
+            "volume": 13958.069566,
+            "vwap": 36.3548,
+            "trades": 147
+          },
+          {
+            "timestamp": 1780426920000,
+            "open": 36.345,
+            "high": 36.35,
+            "low": 36.33,
+            "close": 36.335,
+            "volume": 9186.027518,
+            "vwap": 36.3453,
+            "trades": 88
+          },
+          {
+            "timestamp": 1780426980000,
+            "open": 36.335,
+            "high": 36.34,
+            "low": 36.33,
+            "close": 36.3371,
+            "volume": 5102.55683,
+            "vwap": 36.3375,
+            "trades": 74
+          },
+          {
+            "timestamp": 1780427040000,
+            "open": 36.33,
+            "high": 36.34,
+            "low": 36.28,
+            "close": 36.2999,
+            "volume": 73643,
+            "vwap": 36.2997,
+            "trades": 486
+          },
+          {
+            "timestamp": 1780427100000,
+            "open": 36.295,
+            "high": 36.31,
+            "low": 36.29,
+            "close": 36.305,
+            "volume": 18280,
+            "vwap": 36.2996,
+            "trades": 244
+          },
+          {
+            "timestamp": 1780427160000,
+            "open": 36.31,
+            "high": 36.315,
+            "low": 36.305,
+            "close": 36.315,
+            "volume": 8460.27603,
+            "vwap": 36.3095,
+            "trades": 64
+          },
+          {
+            "timestamp": 1780427220000,
+            "open": 36.32,
+            "high": 36.325,
+            "low": 36.31,
+            "close": 36.31,
+            "volume": 5410.68607,
+            "vwap": 36.3163,
+            "trades": 89
+          },
+          {
+            "timestamp": 1780427280000,
+            "open": 36.305,
+            "high": 36.3178,
+            "low": 36.305,
+            "close": 36.3178,
+            "volume": 6076.557491,
+            "vwap": 36.3107,
+            "trades": 55
+          },
+          {
+            "timestamp": 1780427340000,
+            "open": 36.315,
+            "high": 36.34,
+            "low": 36.315,
+            "close": 36.33,
+            "volume": 11101.70026,
+            "vwap": 36.3264,
+            "trades": 159
+          },
+          {
+            "timestamp": 1780427400000,
+            "open": 36.325,
+            "high": 36.34,
+            "low": 36.325,
+            "close": 36.34,
+            "volume": 4572,
+            "vwap": 36.3293,
+            "trades": 57
+          },
+          {
+            "timestamp": 1780427460000,
+            "open": 36.3374,
+            "high": 36.34,
+            "low": 36.33,
+            "close": 36.33,
+            "volume": 4307,
+            "vwap": 36.3317,
+            "trades": 70
+          },
+          {
+            "timestamp": 1780427520000,
+            "open": 36.325,
+            "high": 36.325,
+            "low": 36.3,
+            "close": 36.32,
+            "volume": 10008.068643,
+            "vwap": 36.312,
+            "trades": 123
+          },
+          {
+            "timestamp": 1780427580000,
+            "open": 36.315,
+            "high": 36.33,
+            "low": 36.315,
+            "close": 36.325,
+            "volume": 4346,
+            "vwap": 36.3236,
+            "trades": 50
+          },
+          {
+            "timestamp": 1780427640000,
+            "open": 36.325,
+            "high": 36.35,
+            "low": 36.325,
+            "close": 36.35,
+            "volume": 11988,
+            "vwap": 36.3367,
+            "trades": 150
+          },
+          {
+            "timestamp": 1780427700000,
+            "open": 36.355,
+            "high": 36.39,
+            "low": 36.355,
+            "close": 36.39,
+            "volume": 8089.209468,
+            "vwap": 36.3609,
+            "trades": 124
+          },
+          {
+            "timestamp": 1780427760000,
+            "open": 36.39,
+            "high": 36.4,
+            "low": 36.38,
+            "close": 36.38,
+            "volume": 16563,
+            "vwap": 36.3887,
+            "trades": 241
+          },
+          {
+            "timestamp": 1780427820000,
+            "open": 36.37,
+            "high": 36.37,
+            "low": 36.345,
+            "close": 36.345,
+            "volume": 6954.72,
+            "vwap": 36.3529,
+            "trades": 76
+          },
+          {
+            "timestamp": 1780427880000,
+            "open": 36.345,
+            "high": 36.36,
+            "low": 36.345,
+            "close": 36.355,
+            "volume": 5256,
+            "vwap": 36.3534,
+            "trades": 43
+          },
+          {
+            "timestamp": 1780427940000,
+            "open": 36.35,
+            "high": 36.355,
+            "low": 36.335,
+            "close": 36.34,
+            "volume": 19461,
+            "vwap": 36.3437,
+            "trades": 159
+          },
+          {
+            "timestamp": 1780428000000,
+            "open": 36.335,
+            "high": 36.35,
+            "low": 36.33,
+            "close": 36.345,
+            "volume": 16264.60776,
+            "vwap": 36.3389,
+            "trades": 166
+          },
+          {
+            "timestamp": 1780428060000,
+            "open": 36.345,
+            "high": 36.345,
+            "low": 36.315,
+            "close": 36.315,
+            "volume": 14686,
+            "vwap": 36.3284,
+            "trades": 152
+          },
+          {
+            "timestamp": 1780428120000,
+            "open": 36.32,
+            "high": 36.32,
+            "low": 36.315,
+            "close": 36.315,
+            "volume": 3579,
+            "vwap": 36.3245,
+            "trades": 62
+          },
+          {
+            "timestamp": 1780428180000,
+            "open": 36.31,
+            "high": 36.325,
+            "low": 36.3,
+            "close": 36.3,
+            "volume": 10088,
+            "vwap": 36.3141,
+            "trades": 137
+          },
+          {
+            "timestamp": 1780428240000,
+            "open": 36.295,
+            "high": 36.3,
+            "low": 36.29,
+            "close": 36.29,
+            "volume": 3058,
+            "vwap": 36.3031,
+            "trades": 63
+          },
+          {
+            "timestamp": 1780428300000,
+            "open": 36.29,
+            "high": 36.325,
+            "low": 36.29,
+            "close": 36.31,
+            "volume": 15475,
+            "vwap": 36.3121,
+            "trades": 210
+          },
+          {
+            "timestamp": 1780428360000,
+            "open": 36.305,
+            "high": 36.31,
+            "low": 36.3,
+            "close": 36.31,
+            "volume": 2721.387,
+            "vwap": 36.3128,
+            "trades": 62
+          },
+          {
+            "timestamp": 1780428420000,
+            "open": 36.3,
+            "high": 36.32,
+            "low": 36.295,
+            "close": 36.31,
+            "volume": 11961.04033,
+            "vwap": 36.3071,
+            "trades": 169
+          },
+          {
+            "timestamp": 1780428480000,
+            "open": 36.3,
+            "high": 36.34,
+            "low": 36.3,
+            "close": 36.34,
+            "volume": 9717,
+            "vwap": 36.3274,
+            "trades": 156
+          },
+          {
+            "timestamp": 1780428540000,
+            "open": 36.34,
+            "high": 36.37,
+            "low": 36.33,
+            "close": 36.36,
+            "volume": 13712,
+            "vwap": 36.3432,
+            "trades": 232
+          },
+          {
+            "timestamp": 1780428600000,
+            "open": 36.35,
+            "high": 36.35,
+            "low": 36.345,
+            "close": 36.345,
+            "volume": 3960.651009,
+            "vwap": 36.3439,
+            "trades": 81
+          },
+          {
+            "timestamp": 1780428660000,
+            "open": 36.35,
+            "high": 36.355,
+            "low": 36.335,
+            "close": 36.345,
+            "volume": 8155,
+            "vwap": 36.3425,
+            "trades": 139
+          },
+          {
+            "timestamp": 1780428720000,
+            "open": 36.35,
+            "high": 36.35,
+            "low": 36.32,
+            "close": 36.32,
+            "volume": 7925,
+            "vwap": 36.3394,
+            "trades": 133
+          },
+          {
+            "timestamp": 1780428780000,
+            "open": 36.32,
+            "high": 36.32,
+            "low": 36.3,
+            "close": 36.305,
+            "volume": 7570,
+            "vwap": 36.3131,
+            "trades": 125
+          },
+          {
+            "timestamp": 1780428840000,
+            "open": 36.31,
+            "high": 36.325,
+            "low": 36.31,
+            "close": 36.315,
+            "volume": 9122,
+            "vwap": 36.3152,
+            "trades": 138
+          },
+          {
+            "timestamp": 1780428900000,
+            "open": 36.315,
+            "high": 36.319,
+            "low": 36.305,
+            "close": 36.31,
+            "volume": 9968.61714,
+            "vwap": 36.3139,
+            "trades": 125
+          },
+          {
+            "timestamp": 1780428960000,
+            "open": 36.31,
+            "high": 36.32,
+            "low": 36.305,
+            "close": 36.31,
+            "volume": 7081,
+            "vwap": 36.3124,
+            "trades": 108
+          },
+          {
+            "timestamp": 1780429020000,
+            "open": 36.31,
+            "high": 36.36,
+            "low": 36.31,
+            "close": 36.36,
+            "volume": 15405,
+            "vwap": 36.3371,
+            "trades": 236
+          },
+          {
+            "timestamp": 1780429080000,
+            "open": 36.35,
+            "high": 36.37,
+            "low": 36.34,
+            "close": 36.3686,
+            "volume": 9319.437,
+            "vwap": 36.3516,
+            "trades": 143
+          },
+          {
+            "timestamp": 1780429140000,
+            "open": 36.365,
+            "high": 36.4,
+            "low": 36.3603,
+            "close": 36.39,
+            "volume": 16877,
+            "vwap": 36.3798,
+            "trades": 164
+          },
+          {
+            "timestamp": 1780429200000,
+            "open": 36.39,
+            "high": 36.39,
+            "low": 36.32,
+            "close": 36.325,
+            "volume": 13053,
+            "vwap": 36.3502,
+            "trades": 210
+          },
+          {
+            "timestamp": 1780429260000,
+            "open": 36.325,
+            "high": 36.33,
+            "low": 36.315,
+            "close": 36.32,
+            "volume": 13257,
+            "vwap": 36.3266,
+            "trades": 125
+          },
+          {
+            "timestamp": 1780429320000,
+            "open": 36.32,
+            "high": 36.328,
+            "low": 36.315,
+            "close": 36.32,
+            "volume": 9811,
+            "vwap": 36.3245,
+            "trades": 125
+          },
+          {
+            "timestamp": 1780429380000,
+            "open": 36.315,
+            "high": 36.32,
+            "low": 36.305,
+            "close": 36.32,
+            "volume": 15598,
+            "vwap": 36.3142,
+            "trades": 191
+          },
+          {
+            "timestamp": 1780429440000,
+            "open": 36.32,
+            "high": 36.34,
+            "low": 36.315,
+            "close": 36.34,
+            "volume": 15091,
+            "vwap": 36.327,
+            "trades": 199
+          },
+          {
+            "timestamp": 1780429500000,
+            "open": 36.33,
+            "high": 36.36,
+            "low": 36.3,
+            "close": 36.36,
+            "volume": 27860,
+            "vwap": 36.3252,
+            "trades": 353
+          },
+          {
+            "timestamp": 1780429560000,
+            "open": 36.37,
+            "high": 36.37,
+            "low": 36.35,
+            "close": 36.365,
+            "volume": 8309,
+            "vwap": 36.3617,
+            "trades": 134
+          },
+          {
+            "timestamp": 1780429620000,
+            "open": 36.365,
+            "high": 36.405,
+            "low": 36.365,
+            "close": 36.4,
+            "volume": 20680,
+            "vwap": 36.3854,
+            "trades": 230
+          },
+          {
+            "timestamp": 1780429680000,
+            "open": 36.395,
+            "high": 36.395,
+            "low": 36.37,
+            "close": 36.375,
+            "volume": 12993,
+            "vwap": 36.3805,
+            "trades": 190
+          },
+          {
+            "timestamp": 1780429740000,
+            "open": 36.375,
+            "high": 36.375,
+            "low": 36.34,
+            "close": 36.34,
+            "volume": 17984.03189,
+            "vwap": 36.3612,
+            "trades": 197
+          },
+          {
+            "timestamp": 1780429800000,
+            "open": 36.34,
+            "high": 36.34,
+            "low": 36.29,
+            "close": 36.295,
+            "volume": 31566,
+            "vwap": 36.3263,
+            "trades": 378
+          },
+          {
+            "timestamp": 1780429860000,
+            "open": 36.295,
+            "high": 36.305,
+            "low": 36.275,
+            "close": 36.285,
+            "volume": 37188,
+            "vwap": 36.2956,
+            "trades": 343
+          },
+          {
+            "timestamp": 1780429920000,
+            "open": 36.29,
+            "high": 36.29,
+            "low": 36.255,
+            "close": 36.255,
+            "volume": 14996,
+            "vwap": 36.2807,
+            "trades": 195
+          },
+          {
+            "timestamp": 1780429980000,
+            "open": 36.26,
+            "high": 36.26,
+            "low": 36.235,
+            "close": 36.25,
+            "volume": 31729,
+            "vwap": 36.2549,
+            "trades": 324
+          },
+          {
+            "timestamp": 1780430040000,
+            "open": 36.251,
+            "high": 36.255,
+            "low": 36.23,
+            "close": 36.24,
+            "volume": 21836,
+            "vwap": 36.2418,
+            "trades": 241
+          },
+          {
+            "timestamp": 1780430100000,
+            "open": 36.23,
+            "high": 36.235,
+            "low": 36.19,
+            "close": 36.215,
+            "volume": 48046,
+            "vwap": 36.2094,
+            "trades": 537
+          },
+          {
+            "timestamp": 1780430160000,
+            "open": 36.215,
+            "high": 36.24,
+            "low": 36.205,
+            "close": 36.225,
+            "volume": 55335.027616,
+            "vwap": 36.2169,
+            "trades": 516
+          },
+          {
+            "timestamp": 1780430220000,
+            "open": 36.22,
+            "high": 36.295,
+            "low": 36.215,
+            "close": 36.28,
+            "volume": 49308,
+            "vwap": 36.2631,
+            "trades": 619
+          },
+          {
+            "timestamp": 1780430280000,
+            "open": 36.285,
+            "high": 36.3,
+            "low": 36.27,
+            "close": 36.285,
+            "volume": 117924,
+            "vwap": 36.2857,
+            "trades": 1180
+          },
+          {
+            "timestamp": 1780430340000,
+            "open": 36.285,
+            "high": 36.29,
+            "low": 36.255,
+            "close": 36.265,
+            "volume": 170763,
+            "vwap": 36.2787,
+            "trades": 1635
+          },
+          {
+            "timestamp": 1780430400000,
+            "open": 36.26,
+            "high": 36.26,
+            "low": 36.26,
+            "close": 36.26,
+            "volume": 11476.31728,
+            "vwap": 36.26,
+            "trades": 28
+          },
+          {
+            "timestamp": 1780433640000,
+            "open": 36.48,
+            "high": 36.48,
+            "low": 36.48,
+            "close": 36.48,
+            "volume": 114,
+            "vwap": 36.48,
+            "trades": 2
           }
         ]
       },
@@ -4132,14 +8142,14 @@
         "trades": []
       },
       "nbbo": {
-        "timestamp": 1780430400,
-        "current": 36.26,
-        "open": 36.61,
-        "high": 36.76,
-        "low": 36.03,
-        "prev_close": 36.76,
-        "change": -0.5,
-        "change_pct": -1.3602
+        "timestamp": 1780509289,
+        "current": 36.53,
+        "open": 36.54,
+        "high": 36.67,
+        "low": 36.12,
+        "prev_close": 36.26,
+        "change": 0.27,
+        "change_pct": 0.7446
       }
     }
   }
