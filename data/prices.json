@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03T17:39:35.131285Z",
+  "last_updated": "2026-08-03T19:15:50.834615Z",
   "ticker": "AR",
   "stocks": {
     "AR": {
@@ -16,19 +16,17 @@
         "bars": []
       },
       "time_of_sales": {
-        "note": "Last 50 trades via Finnhub",
-        "total_trades": 0,
-        "trades": []
+        "error": "HTTPSConnectionPool(host='finnhub.io', port=443): Read timed out. (read timeout=15)"
       },
       "nbbo": {
-        "timestamp": 1785778730,
-        "current": 36.26,
+        "timestamp": 1785784541,
+        "current": 36.34,
         "open": 35.49,
-        "high": 36.3,
+        "high": 36.365,
         "low": 35.3,
         "prev_close": 36.14,
-        "change": 0.12,
-        "change_pct": 0.332
+        "change": 0.2,
+        "change_pct": 0.5534
       }
     }
   }
