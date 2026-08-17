@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17T19:47:39.103364Z",
+  "last_updated": "2026-08-17T20:13:11.065435Z",
   "ticker": "AR",
   "stocks": {
     "AR": {
@@ -21,14 +21,14 @@
         "trades": []
       },
       "nbbo": {
-        "timestamp": 1786996031,
-        "current": 36.31,
-        "open": 37.4225,
+        "timestamp": 1786996800,
+        "current": 36.4,
+        "open": 37.43,
         "high": 37.44,
         "low": 36.015,
         "prev_close": 37.37,
-        "change": -1.06,
-        "change_pct": -2.8365
+        "change": -0.97,
+        "change_pct": -2.5957
       }
     }
   }
