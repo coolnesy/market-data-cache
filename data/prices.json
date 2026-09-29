@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-09-28T19:53:13.567729Z",
+  "last_updated": "2026-09-29T00:01:17.791228Z",
   "ticker": "AR",
   "stocks": {
     "AR": {
       "ohlcv": {
-        "open": 35.53,
-        "high": 35.805,
-        "low": 34.775,
-        "close": 35,
-        "volume": 4850294.0,
-        "vwap": 35.0554
+        "open": 35.06,
+        "high": 35.16,
+        "low": 34.24,
+        "close": 34.34,
+        "volume": 4180130.0,
+        "vwap": 34.5271
       },
       "minute_bars": {
         "total_bars": 0,
@@ -21,14 +21,14 @@
         "trades": []
       },
       "nbbo": {
-        "timestamp": 1790625169,
-        "current": 34.52,
-        "open": 35.055,
+        "timestamp": 1790625600,
+        "current": 34.34,
+        "open": 35.06,
         "high": 35.16,
-        "low": 34.38,
+        "low": 34.24,
         "prev_close": 35,
-        "change": -0.48,
-        "change_pct": -1.3714
+        "change": -0.66,
+        "change_pct": -1.8857
       }
     }
   }
